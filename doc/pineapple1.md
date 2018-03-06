@@ -34,3 +34,26 @@ Pineapple I is a PWD driver.
 | D12            | L10         |
 | D13            | L11         |
 | D14            | L12         |
+
+## MPU Pinout
+
+| Arduino Micro Pin      | Meaning   |
+|------------------------|-----------|
+| D0 (RX, INT)           | MIDI IN   |
+| D1 (TX, INT)           |           |
+| D2 (I2C SDA, INT)      |           |
+| D3 (I2C SCL, INT, PWM) |           |
+| D4                     |           |
+| D5 (PWM)               | LED1      |
+| D6 (PWM)               | GSCLCK    |
+| D7                     | BLANK     |
+| D8                     | XLAT      |
+| D9 (PWM)               | LED2      |
+| D10 (PWM)              | LED3      |
+| D11 (PWM)              | LED4      |
+| D12                    |           |
+| D13 (PWM)              | Indicator |
+| MOSI                   | SIN       |
+| MISO                   |           |
+| SCLCK                  | SCLCK     |
+| SS                     |           |
