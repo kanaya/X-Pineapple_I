@@ -14,7 +14,7 @@ Pineapple I is a PWD driver.
 ### Back Panel
 
 * MIDI IN
-* MIDI THRU
+* MIDI THRU/USB
 
 ## LightDrive
 
@@ -35,25 +35,44 @@ Pineapple I is a PWD driver.
 | D13            | L11         |
 | D14            | L12         |
 
+## MIDI THRU/USB
+
+| MIDI OUT/USB Pin | Meaning  |
+|------------------|----------|
+| M1               |          |
+| M2               | GND      |
+| M3               |          |
+| M4               | Source   |
+| M5               | Drain    |
+| M6               | USB Dp   |
+| M7               | USB Vbus |
+| M8               | USB Dn   |
+
 ## MPU Pinout
 
 | Arduino Micro Pin      | Meaning   |
 |------------------------|-----------|
 | D0 (RX, INT)           | MIDI IN   |
 | D1 (TX, INT)           |           |
-| D2 (I2C SDA, INT)      |           |
-| D3 (I2C SCL, INT, PWM) |           |
-| D4                     |           |
-| D5 (PWM)               | LED1      |
-| D6 (PWM)               | GSCLCK    |
-| D7                     | BLANK     |
-| D8                     | XLAT      |
+| D2 (I2C SDA, INT)      | I2C       |
+| D3 (I2C SCL, INT, PWM) | I2C       |
+| D4                     | BLANK     |
+| D5 (PWM)               | GSCLCK    |
+| D6 (PWM)               | LED1      |
+| D7 (INT)               |           |
+| D8                     |           |
 | D9 (PWM)               | LED2      |
 | D10 (PWM)              | LED3      |
 | D11 (PWM)              | LED4      |
-| D12                    |           |
+| D12                    | XLAT      |
 | D13 (PWM)              | Indicator |
 | MOSI                   | SIN       |
 | MISO                   |           |
 | SCLCK                  | SCLCK     |
 | SS                     |           |
+| A0                     |           |
+| A1                     |           |
+| A2                     |           |
+| A3                     |           |
+| A4                     |           |
+| A5                     |           |
