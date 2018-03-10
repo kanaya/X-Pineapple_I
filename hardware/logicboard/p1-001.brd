@@ -3251,7 +3251,7 @@ design rules under a new name.</description>
 <wire x1="66.04" y1="11.176" x2="65.786" y2="11.43" width="0.254" layer="1"/>
 <wire x1="66.04" y1="11.176" x2="66.04" y2="11.16" width="0.254" layer="1"/>
 </signal>
-<signal name="LD0">
+<signal name="LD1">
 <contactref element="U1" pad="28"/>
 <contactref element="LIGHTDRIVE" pad="P$3"/>
 <wire x1="14.224" y1="33.782" x2="14.224" y2="34.544" width="0.254" layer="16"/>
@@ -3260,7 +3260,7 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="22.86" x2="20.574" y2="23.876" width="0.254" layer="16"/>
 <wire x1="14.224" y1="34.544" x2="14" y2="34.73" width="0.254" layer="16"/>
 </signal>
-<signal name="LD1">
+<signal name="LD2">
 <contactref element="U1" pad="1"/>
 <contactref element="LIGHTDRIVE" pad="P$4"/>
 <wire x1="10.922" y1="34.798" x2="10.922" y2="35.814" width="0.254" layer="16"/>
@@ -3271,7 +3271,7 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="15.24" x2="20.574" y2="16.256" width="0.254" layer="16"/>
 <wire x1="10.922" y1="35.814" x2="11" y2="36" width="0.254" layer="16"/>
 </signal>
-<signal name="LD2">
+<signal name="LD3">
 <contactref element="U1" pad="2"/>
 <contactref element="LIGHTDRIVE" pad="P$5"/>
 <wire x1="15.24" y1="37.084" x2="14.224" y2="37.084" width="0.254" layer="16"/>
@@ -3280,7 +3280,7 @@ design rules under a new name.</description>
 <wire x1="24.13" y1="15.24" x2="23.114" y2="16.256" width="0.254" layer="16"/>
 <wire x1="14.224" y1="37.084" x2="14" y2="37.27" width="0.254" layer="16"/>
 </signal>
-<signal name="LD3">
+<signal name="LD4">
 <contactref element="U1" pad="3"/>
 <contactref element="LIGHTDRIVE" pad="P$6"/>
 <wire x1="14.732" y1="38.354" x2="11.176" y2="38.354" width="0.254" layer="16"/>
@@ -3289,7 +3289,7 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="15.24" x2="25.4" y2="16.51" width="0.254" layer="16"/>
 <wire x1="11.176" y1="38.354" x2="11" y2="38.54" width="0.254" layer="16"/>
 </signal>
-<signal name="LD4">
+<signal name="LD5">
 <contactref element="U1" pad="4"/>
 <contactref element="LIGHTDRIVE" pad="P$7"/>
 <wire x1="25.908" y1="27.94" x2="14.224" y2="39.624" width="0.254" layer="16"/>
@@ -3299,7 +3299,7 @@ design rules under a new name.</description>
 <wire x1="29.21" y1="15.24" x2="28.194" y2="16.256" width="0.254" layer="16"/>
 <wire x1="14.224" y1="39.624" x2="14" y2="39.81" width="0.254" layer="16"/>
 </signal>
-<signal name="LD5">
+<signal name="LD6">
 <contactref element="U1" pad="5"/>
 <contactref element="LIGHTDRIVE" pad="P$8"/>
 <wire x1="9.906" y1="32.004" x2="8.128" y2="32.004" width="0.254" layer="16"/>
@@ -3310,7 +3310,7 @@ design rules under a new name.</description>
 <wire x1="31.75" y1="15.24" x2="29.972" y2="13.462" width="0.254" layer="16"/>
 <wire x1="8.128" y1="32.004" x2="8" y2="32.19" width="0.254" layer="16"/>
 </signal>
-<signal name="LD6">
+<signal name="LD7">
 <contactref element="U1" pad="6"/>
 <contactref element="LIGHTDRIVE" pad="P$9"/>
 <wire x1="5.08" y1="30.988" x2="5.08" y2="33.274" width="0.254" layer="16"/>
@@ -3321,7 +3321,7 @@ design rules under a new name.</description>
 <wire x1="34.29" y1="15.24" x2="32.004" y2="12.954" width="0.254" layer="16"/>
 <wire x1="5.08" y1="33.274" x2="5" y2="33.46" width="0.254" layer="16"/>
 </signal>
-<signal name="LD7">
+<signal name="LD8">
 <contactref element="U1" pad="7"/>
 <contactref element="LIGHTDRIVE" pad="P$10"/>
 <wire x1="11.43" y1="34.544" x2="8.128" y2="34.544" width="0.254" layer="1"/>
@@ -3335,7 +3335,7 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="15.24" x2="36.83" y2="12.954" width="0.254" layer="1"/>
 <wire x1="8.128" y1="34.544" x2="8" y2="34.73" width="0.254" layer="1"/>
 </signal>
-<signal name="LD8">
+<signal name="LD9">
 <contactref element="U1" pad="8"/>
 <contactref element="LIGHTDRIVE" pad="P$11"/>
 <wire x1="4.826" y1="34.798" x2="4.826" y2="35.814" width="0.254" layer="1"/>
@@ -3347,7 +3347,7 @@ design rules under a new name.</description>
 <wire x1="39.37" y1="15.24" x2="39.37" y2="14.732" width="0.254" layer="1"/>
 <wire x1="4.826" y1="35.814" x2="5" y2="36" width="0.254" layer="1"/>
 </signal>
-<signal name="LD9">
+<signal name="LD10">
 <contactref element="U1" pad="9"/>
 <contactref element="LIGHTDRIVE" pad="P$12"/>
 <wire x1="11.43" y1="37.084" x2="8.128" y2="37.084" width="0.254" layer="1"/>
@@ -3364,7 +3364,7 @@ design rules under a new name.</description>
 <wire x1="41.91" y1="15.24" x2="40.132" y2="17.018" width="0.254" layer="1"/>
 <wire x1="8.128" y1="37.084" x2="8" y2="37.27" width="0.254" layer="1"/>
 </signal>
-<signal name="LD10">
+<signal name="LD11">
 <contactref element="U1" pad="10"/>
 <contactref element="LIGHTDRIVE" pad="P$13"/>
 <wire x1="4.826" y1="37.338" x2="4.826" y2="38.354" width="0.254" layer="1"/>
@@ -3375,7 +3375,7 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="15.24" x2="35.56" y2="6.35" width="0.254" layer="1"/>
 <wire x1="4.826" y1="38.354" x2="5" y2="38.54" width="0.254" layer="1"/>
 </signal>
-<signal name="LD11">
+<signal name="LD12">
 <contactref element="U1" pad="11"/>
 <contactref element="LIGHTDRIVE" pad="P$14"/>
 <wire x1="5.334" y1="37.084" x2="7.874" y2="39.624" width="0.254" layer="16"/>

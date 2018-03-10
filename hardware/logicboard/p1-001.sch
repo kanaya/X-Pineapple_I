@@ -12731,7 +12731,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <instance part="SUPPLY15" gate="VDD" x="167.64" y="60.96"/>
 </instances>
 <busses>
-<bus name="LD[0..11]">
+<bus name="LD[1..12]">
 <segment>
 <wire x1="40.64" y1="132.08" x2="83.82" y2="132.08" width="0.762" layer="92"/>
 <wire x1="83.82" y1="132.08" x2="86.36" y2="129.54" width="0.762" layer="92" curve="-90"/>
@@ -12953,7 +12953,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="MIDIIN" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LD0" class="0">
+<net name="LD1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT0"/>
 <wire x1="38.1" y1="129.54" x2="40.64" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -12963,7 +12963,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="LD1" class="0">
+<net name="LD2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT1"/>
 <wire x1="40.64" y1="129.54" x2="43.18" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -12973,7 +12973,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="LD2" class="0">
+<net name="LD3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT2"/>
 <wire x1="43.18" y1="129.54" x2="45.72" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -12983,7 +12983,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="LD3" class="0">
+<net name="LD4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT3"/>
 <wire x1="45.72" y1="129.54" x2="48.26" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -12993,7 +12993,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="LD4" class="0">
+<net name="LD5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT4"/>
 <wire x1="48.26" y1="129.54" x2="50.8" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -13003,20 +13003,17 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="7"/>
 </segment>
 </net>
-<net name="LD5" class="0">
+<net name="LD6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT5"/>
 <wire x1="50.8" y1="129.54" x2="53.34" y2="132.08" width="0.1524" layer="91" curve="-90"/>
-</segment>
-<segment>
-<wire x1="86.36" y1="109.22" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="104.14" x2="86.36" y2="106.68" width="0.1524" layer="91" curve="-90"/>
 <pinref part="LIGHTDRIVE" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="LD6" class="0">
+<net name="LD7" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT6"/>
 <wire x1="53.34" y1="129.54" x2="55.88" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -13026,7 +13023,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="LD7" class="0">
+<net name="LD8" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT7"/>
 <wire x1="55.88" y1="129.54" x2="58.42" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -13036,7 +13033,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="LD8" class="0">
+<net name="LD9" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT8"/>
 <wire x1="58.42" y1="129.54" x2="60.96" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -13046,7 +13043,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="11"/>
 </segment>
 </net>
-<net name="LD9" class="0">
+<net name="LD10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT9"/>
 <wire x1="60.96" y1="129.54" x2="63.5" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -13056,7 +13053,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="LD10" class="0">
+<net name="LD11" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT10"/>
 <wire x1="63.5" y1="129.54" x2="66.04" y2="132.08" width="0.1524" layer="91" curve="-90"/>
@@ -13066,7 +13063,7 @@ Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/dow
 <pinref part="LIGHTDRIVE" gate="G$1" pin="13"/>
 </segment>
 </net>
-<net name="LD11" class="0">
+<net name="LD12" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT11"/>
 <wire x1="66.04" y1="129.54" x2="68.58" y2="132.08" width="0.1524" layer="91" curve="-90"/>
