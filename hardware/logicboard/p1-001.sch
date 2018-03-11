@@ -12819,24 +12819,24 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="R4" gate="G$1" x="109.22" y="40.64"/>
 <instance part="IC1" gate="A" x="91.44" y="40.64"/>
 <instance part="OK1" gate="A" x="78.74" y="27.94" rot="R90"/>
-<instance part="SUPPLY17" gate="G$1" x="177.8" y="60.96"/>
-<instance part="SUPPLY19" gate="G$1" x="185.42" y="60.96"/>
-<instance part="SUPPLY21" gate="G$1" x="193.04" y="60.96"/>
-<instance part="SUPPLY22" gate="GND" x="193.04" y="43.18"/>
-<instance part="SUPPLY20" gate="GND" x="185.42" y="43.18"/>
-<instance part="SUPPLY18" gate="GND" x="177.8" y="43.18"/>
-<instance part="SUPPLY16" gate="GND" x="170.18" y="43.18"/>
-<instance part="C1" gate="G$1" x="170.18" y="53.34"/>
-<instance part="C2" gate="G$1" x="177.8" y="53.34"/>
-<instance part="C3" gate="G$1" x="185.42" y="53.34"/>
-<instance part="C4" gate="G$1" x="193.04" y="53.34"/>
-<instance part="IC1" gate="D" x="149.86" y="38.1"/>
-<instance part="IC1" gate="E" x="149.86" y="25.4"/>
-<instance part="IC1" gate="F" x="149.86" y="12.7"/>
-<instance part="SUPPLY14" gate="GND" x="137.16" y="7.62"/>
+<instance part="SUPPLY17" gate="G$1" x="147.32" y="22.86"/>
+<instance part="SUPPLY19" gate="G$1" x="154.94" y="22.86"/>
+<instance part="SUPPLY21" gate="G$1" x="162.56" y="22.86"/>
+<instance part="SUPPLY22" gate="GND" x="162.56" y="5.08"/>
+<instance part="SUPPLY20" gate="GND" x="154.94" y="5.08"/>
+<instance part="SUPPLY18" gate="GND" x="147.32" y="5.08"/>
+<instance part="SUPPLY16" gate="GND" x="139.7" y="5.08"/>
+<instance part="C1" gate="G$1" x="139.7" y="15.24"/>
+<instance part="C2" gate="G$1" x="147.32" y="15.24"/>
+<instance part="C3" gate="G$1" x="154.94" y="15.24"/>
+<instance part="C4" gate="G$1" x="162.56" y="15.24"/>
+<instance part="IC1" gate="D" x="152.4" y="63.5"/>
+<instance part="IC1" gate="E" x="152.4" y="50.8"/>
+<instance part="IC1" gate="F" x="152.4" y="38.1"/>
+<instance part="SUPPLY14" gate="GND" x="139.7" y="33.02"/>
 <instance part="MC1" gate="G$1" x="53.34" y="53.34" rot="R270"/>
-<instance part="IC1" gate="B" x="149.86" y="63.5"/>
-<instance part="IC1" gate="C" x="149.86" y="50.8"/>
+<instance part="IC1" gate="B" x="152.4" y="88.9"/>
+<instance part="IC1" gate="C" x="152.4" y="76.2"/>
 <instance part="R3" gate="G$1" x="109.22" y="48.26"/>
 <instance part="SUPPLY7" gate="G$1" x="76.2" y="53.34"/>
 <instance part="R5" gate="G$1" x="109.22" y="12.7"/>
@@ -12849,10 +12849,10 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="U1" gate="G$1" x="58.42" y="116.84" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="30.48" y="106.68"/>
 <instance part="SUPPLY8" gate="GND" x="78.74" y="99.06"/>
-<instance part="PWR" gate="G$1" x="157.48" y="119.38" rot="R180"/>
-<instance part="SUPPLY11" gate="VDD" x="147.32" y="121.92"/>
+<instance part="PWR" gate="G$1" x="129.54" y="119.38" rot="R180"/>
+<instance part="SUPPLY11" gate="VDD" x="119.38" y="121.92"/>
 <instance part="SUPPLY3" gate="VDD" x="30.48" y="55.88"/>
-<instance part="SUPPLY12" gate="GND" x="147.32" y="111.76"/>
+<instance part="SUPPLY12" gate="GND" x="119.38" y="111.76"/>
 <instance part="SUPPLY10" gate="GND" x="83.82" y="99.06"/>
 <instance part="FRONT" gate="G$1" x="5.08" y="68.58"/>
 <instance part="SUPPLY1" gate="G$1" x="15.24" y="106.68"/>
@@ -12862,11 +12862,11 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="SUPPLY9" gate="VDD" x="83.82" y="124.46"/>
 <instance part="LIGHTDRIVE" gate="G$1" x="96.52" y="104.14"/>
 <instance part="SUPPLY23" gate="GND" x="83.82" y="81.28"/>
-<instance part="SUPPLY15" gate="VDD" x="170.18" y="60.96"/>
+<instance part="SUPPLY15" gate="VDD" x="139.7" y="22.86"/>
 <instance part="LED" gate="G$1" x="5.08" y="48.26"/>
-<instance part="LEDPWR" gate="G$1" x="157.48" y="96.52" rot="R180"/>
-<instance part="SUPPLY24" gate="G$1" x="147.32" y="101.6"/>
-<instance part="SUPPLY25" gate="GND" x="147.32" y="88.9"/>
+<instance part="LEDPWR" gate="G$1" x="129.54" y="96.52" rot="R180"/>
+<instance part="SUPPLY24" gate="G$1" x="119.38" y="101.6"/>
+<instance part="SUPPLY25" gate="GND" x="119.38" y="88.9"/>
 <instance part="ALTDRIVE" gate="1" x="99.06" y="68.58"/>
 <instance part="REFRESISTOR" gate="G$1" x="38.1" y="96.52"/>
 </instances>
@@ -12898,44 +12898,44 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="170.18" y1="48.26" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="10.16" x2="139.7" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<wire x1="177.8" y1="48.26" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="10.16" x2="147.32" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
-<wire x1="185.42" y1="48.26" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="10.16" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
-<wire x1="193.04" y1="48.26" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="10.16" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <pinref part="IC1" gate="F" pin="I"/>
-<wire x1="137.16" y1="38.1" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="25.4" x2="137.16" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="12.7" x2="137.16" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="12.7" x2="137.16" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="63.5" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="50.8" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="38.1" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="E" pin="I"/>
-<wire x1="139.7" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="D" pin="I"/>
-<wire x1="139.7" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
-<junction x="137.16" y="25.4"/>
-<junction x="137.16" y="12.7"/>
+<wire x1="142.24" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<junction x="139.7" y="50.8"/>
+<junction x="139.7" y="38.1"/>
 <pinref part="IC1" gate="C" pin="I"/>
-<wire x1="139.7" y1="50.8" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="50.8" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="76.2" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="I"/>
-<wire x1="139.7" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="63.5" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
-<junction x="137.16" y="50.8"/>
-<junction x="137.16" y="38.1"/>
+<wire x1="142.24" y1="88.9" x2="139.7" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="88.9" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
+<junction x="139.7" y="76.2"/>
+<junction x="139.7" y="63.5"/>
 </segment>
 <segment>
 <pinref part="MC1" gate="G$1" pin="GND"/>
@@ -12956,9 +12956,9 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="147.32" y1="116.84" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="116.84" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="91.44" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
@@ -12980,26 +12980,26 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 <segment>
 <pinref part="LEDPWR" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="93.98" x2="119.38" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="93.98" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="58.42" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="20.32" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="58.42" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="20.32" x2="154.94" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="G$1" pin="VCC"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="58.42" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="20.32" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="A" pin="VE"/>
@@ -13048,9 +13048,9 @@ Low profile connectors, straight&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="VCC"/>
-<wire x1="147.32" y1="99.06" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="99.06" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="LEDPWR" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13188,9 +13188,9 @@ Low profile connectors, straight&lt;p&gt;
 <net name="VDD" class="0">
 <segment>
 <pinref part="SUPPLY11" gate="VDD" pin="VDD"/>
-<wire x1="147.32" y1="121.92" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="121.92" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="PWR" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="VDD" pin="VDD"/>
@@ -13207,7 +13207,7 @@ Low profile connectors, straight&lt;p&gt;
 <segment>
 <pinref part="SUPPLY15" gate="VDD" pin="VDD"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="60.96" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="22.86" x2="139.7" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
