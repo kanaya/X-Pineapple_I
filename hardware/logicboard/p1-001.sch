@@ -13116,18 +13116,18 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-1N4148" value="200mA/100V/1V"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
+<part name="MIDIIN" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK"/>
+<part name="MIDIOUT" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-Retired" deviceset="TLC5940" device="-NT"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK"/>
+<part name="PWR12V" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH"/>
+<part name="FRONT" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="10k"/>
@@ -13135,12 +13135,12 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="X1" library="con-hirose-dx10lm1-14se" deviceset="HIROSE-DX10LM1-14SE" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
+<part name="LEDPWR" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML16L" device="" package3d_urn="urn:adsk.eagle:package:8682/1"/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="220"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH"/>
+<part name="LED" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH"/>
 <part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:24913/1"/>
 <part name="U$1" library="adafruit" deviceset="ARDUINOMICRO" device=""/>
 </parts>
@@ -13176,18 +13176,18 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <instance part="D1" gate="G$1" x="114.3" y="12.7" rot="MR0"/>
 <instance part="SUPPLY5" gate="G$1" x="50.8" y="48.26"/>
 <instance part="SUPPLY6" gate="GND" x="50.8" y="22.86"/>
-<instance part="J6" gate="G$1" x="147.32" y="10.16" rot="R180"/>
-<instance part="J5" gate="J$1" x="147.32" y="43.18" rot="R180"/>
+<instance part="MIDIIN" gate="G$1" x="147.32" y="10.16" rot="R180"/>
+<instance part="MIDIOUT" gate="J$1" x="147.32" y="43.18" rot="R180"/>
 <instance part="SUPPLY16" gate="GND" x="137.16" y="35.56"/>
 <instance part="U1" gate="G$1" x="76.2" y="114.3" rot="R90"/>
 <instance part="SUPPLY3" gate="G$1" x="48.26" y="104.14"/>
 <instance part="SUPPLY8" gate="GND" x="96.52" y="96.52"/>
-<instance part="J3" gate="G$1" x="147.32" y="116.84" rot="R180"/>
+<instance part="PWR12V" gate="G$1" x="147.32" y="116.84" rot="R180"/>
 <instance part="SUPPLY12" gate="VDD" x="137.16" y="119.38"/>
 <instance part="SUPPLY4" gate="VDD" x="48.26" y="53.34"/>
 <instance part="SUPPLY13" gate="GND" x="137.16" y="109.22"/>
 <instance part="SUPPLY10" gate="GND" x="101.6" y="96.52"/>
-<instance part="J1" gate="G$1" x="7.62" y="66.04"/>
+<instance part="FRONT" gate="G$1" x="7.62" y="66.04"/>
 <instance part="SUPPLY2" gate="G$1" x="33.02" y="104.14"/>
 <instance part="SUPPLY1" gate="GND" x="15.24" y="58.42"/>
 <instance part="R1" gate="G$1" x="38.1" y="91.44" rot="R90"/>
@@ -13195,12 +13195,12 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <instance part="X1" gate="G$1" x="114.3" y="101.6"/>
 <instance part="SUPPLY11" gate="GND" x="101.6" y="78.74"/>
 <instance part="SUPPLY18" gate="VDD" x="157.48" y="20.32"/>
-<instance part="J4" gate="G$1" x="147.32" y="93.98" rot="R180"/>
+<instance part="LEDPWR" gate="G$1" x="147.32" y="93.98" rot="R180"/>
 <instance part="SUPPLY14" gate="G$1" x="137.16" y="99.06"/>
 <instance part="SUPPLY15" gate="GND" x="137.16" y="86.36"/>
 <instance part="SV1" gate="1" x="116.84" y="66.04"/>
 <instance part="R2" gate="G$1" x="55.88" y="93.98"/>
-<instance part="J2" gate="G$1" x="7.62" y="45.72"/>
+<instance part="LED" gate="G$1" x="7.62" y="45.72"/>
 <instance part="RN1" gate="A" x="20.32" y="93.98"/>
 <instance part="RN1" gate="B" x="20.32" y="86.36"/>
 <instance part="RN1" gate="C" x="20.32" y="78.74"/>
@@ -13285,7 +13285,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J5" gate="J$1" pin="2"/>
+<pinref part="MIDIOUT" gate="J$1" pin="2"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <wire x1="139.7" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="43.18" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
@@ -13296,7 +13296,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="96.52" y1="99.06" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="PWR12V" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="137.16" y1="114.3" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
@@ -13308,7 +13308,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <pinref part="X1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="FRONT" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="15.24" y1="66.04" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
@@ -13320,7 +13320,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="LEDPWR" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="137.16" y1="91.44" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
@@ -13377,7 +13377,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="48.26" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="FRONT" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="33.02" y1="63.5" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
@@ -13390,7 +13390,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <segment>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
 <wire x1="137.16" y1="96.52" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="LEDPWR" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13405,7 +13405,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J$1" pin="3"/>
+<pinref part="MIDIOUT" gate="J$1" pin="3"/>
 <wire x1="139.7" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="40.64" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -13420,7 +13420,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="116.84" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="12.7" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
 <junction x="119.38" y="7.62"/>
-<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="MIDIIN" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -13438,7 +13438,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="J5" gate="J$1" pin="1"/>
+<pinref part="MIDIOUT" gate="J$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -13458,7 +13458,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="10.16" x2="139.7" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="MIDIIN" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IREF" class="0">
@@ -13530,7 +13530,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <segment>
 <pinref part="SUPPLY12" gate="VDD" pin="VDD"/>
 <wire x1="137.16" y1="119.38" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="PWR12V" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -13553,7 +13553,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="FRONT" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="68.58" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
@@ -13565,7 +13565,7 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="FRONT" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="D" pin="1"/>
 </segment>
@@ -13835,28 +13835,28 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="LED" gate="G$1" pin="4"/>
 <wire x1="15.24" y1="50.8" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="E" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="LED" gate="G$1" pin="3"/>
 <wire x1="15.24" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="F" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="G" pin="1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="H" pin="1"/>
 </segment>

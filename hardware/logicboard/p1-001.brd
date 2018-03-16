@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -158,6 +158,14 @@
 <hole x="44" y="3" drill="3.2"/>
 <text x="68.58" y="36.83" size="0.6096" layer="25" rot="R90" align="bottom-center">USB</text>
 <text x="25.4" y="36.83" size="0.8128" layer="25" rot="R90" align="bottom-center">Arduino Micro</text>
+<text x="23" y="66" size="0.8128" layer="25" align="bottom-center">PWR12V</text>
+<text x="31" y="66" size="0.8128" layer="25" align="bottom-center">FRONT</text>
+<text x="52" y="66" size="0.8128" layer="25" align="bottom-center">LED</text>
+<text x="60" y="66" size="0.8128" layer="25" align="bottom-center">LEDPWR</text>
+<text x="8" y="55" size="0.8128" layer="25" align="bottom-center">LightDrive</text>
+<text x="66" y="66" size="0.8128" layer="25" rot="R90">MIDIOUT</text>
+<text x="66" y="2" size="0.8128" layer="25" rot="R90">MIDIIN</text>
+<text x="55.88" y="2.54" size="0.8128" layer="25" align="bottom-center">REFERENCE</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -3292,11 +3300,11 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-08378" x="57.15" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.15" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J6" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="66" y="10" smashed="yes" rot="R270">
+<element name="MIDIIN" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="66" y="10" smashed="yes" rot="R270">
 <attribute name="NAME" x="69" y="10" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 <attribute name="VALUE" x="70" y="11.27" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="66" y="61" smashed="yes" rot="R270">
+<element name="MIDIOUT" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="66" y="61" smashed="yes" rot="R270">
 <attribute name="NAME" x="69" y="61" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
 <attribute name="PROD_ID" value="WIRE-10037" x="66" y="61" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-09915" x="66" y="61" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3306,11 +3314,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.59" y="20.32" size="0.6096" layer="25" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="21.59" y="19.05" size="0.6096" layer="27" ratio="10"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="23" y="59" smashed="yes">
+<element name="PWR12V" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="23" y="59" smashed="yes">
 <attribute name="NAME" x="23" y="62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="21.73" y="63" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="JST-4-PTH" value="" x="31" y="59" smashed="yes">
+<element name="FRONT" library="SparkFun-Connectors" package="JST-4-PTH" value="" x="31" y="59" smashed="yes">
 <attribute name="NAME" x="31" y="62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="WIRE-13531" x="31" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="PRT-09916" x="31" y="59" size="1.778" layer="27" display="off"/>
@@ -3328,7 +3336,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="11N4069" x="5" y="36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.16" y="36" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="60" y="59" smashed="yes">
+<element name="LEDPWR" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="60" y="59" smashed="yes">
 <attribute name="NAME" x="60" y="62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CONN-09863" x="60" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="SKU" value="PRT-09914" x="60" y="59" size="1.778" layer="27" display="off"/>
@@ -3343,10 +3351,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.5254" y="-0.43" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="220" x="55.88" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.8" y="5.08" size="0.8128" layer="25" ratio="10" rot="R180" align="top-right"/>
+<attribute name="NAME" x="50.8" y="5.08" size="0.6096" layer="25" ratio="10" rot="R180" align="top-right"/>
 <attribute name="VALUE" x="58.0136" y="7.3914" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="JST-4-PTH" value="" x="52" y="59" smashed="yes">
+<element name="LED" library="SparkFun-Connectors" package="JST-4-PTH" value="" x="52" y="59" smashed="yes">
 <attribute name="NAME" x="52" y="62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="WIRE-13531" x="52" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="PRT-09916" x="52" y="59" size="1.778" layer="27" display="off"/>
@@ -3374,16 +3382,16 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="9"/>
 <contactref element="IC1" pad="5"/>
 <contactref element="IC1" pad="3"/>
-<contactref element="J5" pad="2"/>
+<contactref element="MIDIOUT" pad="2"/>
 <contactref element="U1" pad="22"/>
-<contactref element="J3" pad="2"/>
-<contactref element="J1" pad="2"/>
+<contactref element="PWR12V" pad="2"/>
+<contactref element="FRONT" pad="2"/>
 <contactref element="X1" pad="P$2"/>
 <contactref element="X1" pad="P$17"/>
 <contactref element="X1" pad="P$18"/>
 <contactref element="X1" pad="P$16"/>
 <contactref element="X1" pad="P$15"/>
-<contactref element="J4" pad="2"/>
+<contactref element="LEDPWR" pad="2"/>
 <contactref element="U$1" pad="P$12"/>
 <wire x1="10.922" y1="43.942" x2="9.906" y2="43.942" width="0.254" layer="1"/>
 <wire x1="9.906" y1="43.942" x2="5.08" y2="43.942" width="0.254" layer="1"/>
@@ -3482,9 +3490,9 @@ design rules under a new name.</description>
 <contactref element="U1" pad="21"/>
 <contactref element="U1" pad="27"/>
 <contactref element="U1" pad="19"/>
-<contactref element="J1" pad="1"/>
+<contactref element="FRONT" pad="1"/>
 <contactref element="R1" pad="2"/>
-<contactref element="J4" pad="1"/>
+<contactref element="LEDPWR" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="U$1" pad="P$23"/>
 <wire x1="50.8" y1="50.546" x2="50.8" y2="49.53" width="0.254" layer="1"/>
@@ -3559,7 +3567,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="MIDITX-">
 <contactref element="R4" pad="2"/>
-<contactref element="J5" pad="3"/>
+<contactref element="MIDIOUT" pad="3"/>
 <wire x1="48.006" y1="61.214" x2="45.212" y2="58.42" width="0.254" layer="16"/>
 <wire x1="63.754" y1="61.214" x2="48.006" y2="61.214" width="0.254" layer="16"/>
 <wire x1="65.786" y1="59.182" x2="63.754" y2="61.214" width="0.254" layer="16"/>
@@ -3569,7 +3577,7 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="OK1" pad="3"/>
 <contactref element="D1" pad="A"/>
-<contactref element="J6" pad="2"/>
+<contactref element="MIDIIN" pad="2"/>
 <wire x1="67.31" y1="10.414" x2="67.31" y2="16.51" width="0.254" layer="1"/>
 <wire x1="66.04" y1="9.144" x2="67.31" y2="10.414" width="0.254" layer="1"/>
 <wire x1="66.04" y1="9.144" x2="66" y2="9" width="0.254" layer="1"/>
@@ -3602,7 +3610,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="2"/>
-<contactref element="J5" pad="1"/>
+<contactref element="MIDIOUT" pad="1"/>
 <wire x1="46.99" y1="60.96" x2="44.99" y2="60.96" width="0.254" layer="16"/>
 <wire x1="49.022" y1="62.992" x2="46.99" y2="60.96" width="0.254" layer="16"/>
 <wire x1="65.786" y1="62.992" x2="49.022" y2="62.992" width="0.254" layer="16"/>
@@ -3619,7 +3627,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$6">
 <contactref element="R5" pad="2"/>
-<contactref element="J6" pad="1"/>
+<contactref element="MIDIIN" pad="1"/>
 <wire x1="64.262" y1="12.7" x2="60.96" y2="12.7" width="0.254" layer="1"/>
 <wire x1="65.786" y1="11.176" x2="64.262" y2="12.7" width="0.254" layer="1"/>
 <wire x1="65.786" y1="11.176" x2="66" y2="11" width="0.254" layer="1"/>
@@ -3669,7 +3677,7 @@ design rules under a new name.</description>
 <wire x1="49.53" y1="29.21" x2="45.72" y2="25.4" width="0.254" layer="1"/>
 </signal>
 <signal name="VDD">
-<contactref element="J3" pad="1"/>
+<contactref element="PWR12V" pad="1"/>
 <contactref element="X1" pad="P$1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U$1" pad="P$20"/>
@@ -3684,7 +3692,7 @@ design rules under a new name.</description>
 <wire x1="17.78" y1="42.926" x2="29.718" y2="42.926" width="0.254" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="J1" pad="3"/>
+<contactref element="FRONT" pad="3"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$1" pad="P$13"/>
 <wire x1="36.322" y1="63.5" x2="39.91" y2="63.5" width="0.254" layer="16"/>
@@ -3696,7 +3704,7 @@ design rules under a new name.</description>
 <wire x1="32.004" y1="58.928" x2="32" y2="59" width="0.254" layer="16"/>
 </signal>
 <signal name="N$8">
-<contactref element="J1" pad="4"/>
+<contactref element="FRONT" pad="4"/>
 <contactref element="RN1" pad="4"/>
 <wire x1="35.56" y1="52.578" x2="35.56" y2="46.99" width="0.254" layer="1"/>
 <wire x1="34.036" y1="54.102" x2="35.56" y2="52.578" width="0.254" layer="1"/>
@@ -4120,7 +4128,7 @@ design rules under a new name.</description>
 <wire x1="14.732" y1="9.652" x2="14.61" y2="9.73" width="0.254" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="J2" pad="4"/>
+<contactref element="LED" pad="4"/>
 <contactref element="RN1" pad="5"/>
 <wire x1="38.1" y1="52.578" x2="38.1" y2="46.99" width="0.254" layer="16"/>
 <wire x1="39.116" y1="53.594" x2="38.1" y2="52.578" width="0.254" layer="16"/>
@@ -4135,7 +4143,7 @@ design rules under a new name.</description>
 <wire x1="54.864" y1="59.182" x2="55" y2="59" width="0.254" layer="16"/>
 </signal>
 <signal name="N$10">
-<contactref element="J2" pad="3"/>
+<contactref element="LED" pad="3"/>
 <contactref element="RN1" pad="6"/>
 <wire x1="40.64" y1="47.498" x2="40.64" y2="46.99" width="0.254" layer="16"/>
 <wire x1="47.752" y1="54.61" x2="40.64" y2="47.498" width="0.254" layer="16"/>
@@ -4146,7 +4154,7 @@ design rules under a new name.</description>
 <wire x1="52.832" y1="59.182" x2="53" y2="59" width="0.254" layer="16"/>
 </signal>
 <signal name="N$12">
-<contactref element="J2" pad="2"/>
+<contactref element="LED" pad="2"/>
 <contactref element="RN1" pad="7"/>
 <wire x1="43.18" y1="49.276" x2="43.18" y2="46.99" width="0.254" layer="16"/>
 <wire x1="50.8" y1="56.896" x2="43.18" y2="49.276" width="0.254" layer="16"/>
@@ -4154,7 +4162,7 @@ design rules under a new name.</description>
 <wire x1="50.8" y1="58.928" x2="51" y2="59" width="0.254" layer="16"/>
 </signal>
 <signal name="N$13">
-<contactref element="J2" pad="1"/>
+<contactref element="LED" pad="1"/>
 <contactref element="RN1" pad="8"/>
 <wire x1="45.72" y1="52.578" x2="45.72" y2="46.99" width="0.254" layer="1"/>
 <wire x1="48.768" y1="55.626" x2="45.72" y2="52.578" width="0.254" layer="1"/>
