@@ -52,8 +52,8 @@ Pineapple I is a PWD driver.
 
 | Arduino Micro Pin      | Meaning   |
 |------------------------|-----------|
-| D0 (RX, INT)           | MIDI IN   |
-| D1 (TX, INT)           |           |
+| D0 (TX, INT)           |           |
+| D1 (RX, INT)           | MIDI IN   |
 | D2 (I2C SDA, INT)      | I2C       |
 | D3 (I2C SCL, INT, PWM) | I2C       |
 | D4                     | BLANK     |
