@@ -13510,9 +13510,9 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="73.66" y1="101.6" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <label x="76.2" y="88.9" size="1.778" layer="95"/>
-<wire x1="83.82" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="71.12" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="12"/>
+<wire x1="91.44" y1="58.42" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="7"/>
+<wire x1="91.44" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GSCLCK" class="0">

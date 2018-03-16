@@ -50,29 +50,18 @@ Pineapple I is a PWD driver.
 
 ## MPU Pinout
 
-| Arduino Micro Pin      | Meaning   |
-|------------------------|-----------|
-| D0 (TX, INT)           |           |
-| D1 (RX, INT)           | MIDI IN   |
-| D2 (I2C SDA, INT)      | I2C       |
-| D3 (I2C SCL, INT, PWM) | I2C       |
-| D4                     | BLANK     |
-| D5 (PWM)               | GSCLCK    |
-| D6 (PWM)               | LED1      |
-| D7 (INT)               |           |
-| D8                     |           |
-| D9 (PWM)               | LED2      |
-| D10 (PWM)              | LED3      |
-| D11 (PWM)              | LED4      |
-| D12                    | XLAT      |
-| D13 (PWM)              | Indicator |
-| MOSI                   | SIN       |
-| MISO                   |           |
-| SCLCK                  | SCLCK     |
-| SS                     |           |
-| A0                     |           |
-| A1                     |           |
-| A2                     |           |
-| A3                     |           |
-| A4                     |           |
-| A5                     |           |
+| Meaning   | Arduino Micro          | Arduino Pro Mini |
+|-----------|------------------------|------------------|
+| MIDI IN   | D1 (RX, INT)           | D1 (RX)          |
+| I2C SDA   | D2 (I2C SDA, INT)      | A4 (SDA)         |
+| I2C SCL   | D3 (I2C SCL, INT, PWM) | A5 (SCL)         |
+| BLANK     | D4                     | D4               |
+| XLAT      | D12 -> D7?             | D7               |
+| GSCLCK    | D5 (PWM)               | D5 (PWM)         |
+| SIN       | MOSI                   | D11 (MOSI, PWM)  |
+| SCLCK     | SCLCK                  | D13 (SCLK)       |
+| LED1      | D6 (PWM)               | D6 (PWM)         |
+| LED2      | D9 (PWM)               | D9 (PWM)         |
+| LED3      | D10 (PWM)              | D10 (PWM)        |
+| LED4      | D11 (PWM)              | D3 (PWM, INT)    |
+| Indicator | D13 (PWM)              | D8               |
