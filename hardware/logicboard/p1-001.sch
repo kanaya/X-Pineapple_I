@@ -13116,13 +13116,13 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-1N4148" value="200mA/100V/1V"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="MIDIIN" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK"/>
+<part name="MIDIIN" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
 <part name="MIDIOUT" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-Retired" deviceset="TLC5940" device="-NT"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="PWR12V" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2-PTH-NO_SILK"/>
+<part name="PWR12V" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>

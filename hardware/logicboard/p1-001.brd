@@ -2489,32 +2489,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="JST-2-PTH-NS">
-<description>&lt;h3&gt;JST 2 Pin Right Angle Plated Through  Hole- No Silk&lt;/h3&gt;
-tDocu indicate polarity for connections that match SparkFun LiPo battery terminations. 
-&lt;br&gt; No silk outline of connector. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:2mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Connectors/JST%282%29-01548.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-2" y1="0" x2="-2" y2="-1.8" width="0.2032" layer="51"/>
-<wire x1="-2" y1="-1.8" x2="-3" y2="-1.8" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-1.8" x2="-3" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="3" y2="6" width="0.2032" layer="51"/>
-<wire x1="3" y1="6" x2="3" y2="-1.8" width="0.2032" layer="51"/>
-<wire x1="3" y1="-1.8" x2="2" y2="-1.8" width="0.2032" layer="51"/>
-<wire x1="2" y1="-1.8" x2="2" y2="0" width="0.2032" layer="51"/>
-<pad name="1" x="-1" y="0" drill="0.7" diameter="1.6"/>
-<pad name="2" x="1" y="0" drill="0.7" diameter="1.6"/>
-<text x="-1.27" y="5.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
-<text x="-1.27" y="4" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
-<text x="0.6" y="0.7" size="1.27" layer="51">+</text>
-<text x="-1.4" y="0.7" size="1.27" layer="51">-</text>
-</package>
 <package name="JST-3-PTH">
 <description>&lt;h3&gt;JST 3 Pin Right Angle Plated Through Hole&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -3300,8 +3274,10 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="DIO-08378" x="57.15" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.15" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="MIDIIN" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="66" y="10" smashed="yes" rot="R270">
+<element name="MIDIIN" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="66" y="10" smashed="yes" rot="R270">
 <attribute name="NAME" x="69" y="10" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="CONN-09863" x="66" y="10" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SKU" value="PRT-09914" x="66" y="10" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="70" y="11.27" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="MIDIOUT" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="66" y="61" smashed="yes" rot="R270">
@@ -3314,8 +3290,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.59" y="20.32" size="0.6096" layer="25" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="21.59" y="19.05" size="0.6096" layer="27" ratio="10"/>
 </element>
-<element name="PWR12V" library="SparkFun-Connectors" package="JST-2-PTH-NS" value="" x="23" y="59" smashed="yes">
+<element name="PWR12V" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="23" y="59" smashed="yes">
 <attribute name="NAME" x="23" y="62" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CONN-09863" x="23" y="59" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="PRT-09914" x="23" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.73" y="63" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="FRONT" library="SparkFun-Connectors" package="JST-4-PTH" value="" x="31" y="59" smashed="yes">
