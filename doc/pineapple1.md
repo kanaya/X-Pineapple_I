@@ -64,6 +64,6 @@ Pineapple I is a PWD driver.
 | LED2      | D9 (PWM)               | D9 (PWM)         |
 | LED3      | D10 (PWM)              | D10 (PWM)        |
 | LED4      | D11 (PWM)              | D3 (PWM, INT)    |
-| Indicator | D13 (PWM)              | D8->D2?          |
+| Indicator | D13 (PWM)              | D2               |
 | ID        | D8                     | D8               |
 | Relay     | D12                    | ---              |
