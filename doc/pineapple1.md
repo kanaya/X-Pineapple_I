@@ -57,10 +57,10 @@ Pineapple I is a PWD driver.
 | I2C SCL   | D3 (I2C SCL, INT, PWM) | A5 (SCL)         |
 | BLANK     | D4                     | D4               |
 | XLAT      | D7                     | D7               |
-| GSCLCK    | D5 (PWM)               | D5 (PWM)         |
+| GSCLCK    | D6 (PWM)               | D6 (PWM)         |
 | SIN       | MOSI                   | D11 (MOSI, PWM)  |
 | SCLCK     | SCLCK                  | D13 (SCLK)       |
-| LED1      | D6 (PWM)               | D6 (PWM)         |
+| LED1      | D5 (PWM)               | D5 (PWM)         |
 | LED2      | D9 (PWM)               | D9 (PWM)         |
 | LED3      | D10 (PWM)              | D10 (PWM)        |
 | LED4      | D11 (PWM)              | D3 (PWM, INT)    |
