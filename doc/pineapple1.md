@@ -14,7 +14,7 @@ Pineapple I is a PWD driver.
 ### Back Panel
 
 * MIDI IN
-* MIDI THRU/USB
+* MIDI THRU+R
 
 ## LightDrive
 
@@ -35,13 +35,13 @@ Pineapple I is a PWD driver.
 | D13            | LD11        |
 | D14            | LD12        |
 
-## MIDI THRU/USB
+## MIDI THRU+R
 
-| MIDI OUT/USB Pin | Meaning  |
+| MIDI THRU+R Pin  | Meaning  |
 |------------------|----------|
-| M1               |          |
+| M1               | Relay    |
 | M2               | GND      |
-| M3               |          |
+| M3               | Relay    |
 | M4               | Source   |
 | M5               | Drain    |
 | M6               | USB Dp   |
