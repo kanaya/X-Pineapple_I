@@ -13492,6 +13492,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-1N4148" value="200mA/100V/1V"/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5V1" device="" package3d_urn="urn:adsk.eagle:package:24341/1"/>
 <part name="RELAY" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
+<part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13548,9 +13549,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="SV1" gate="1" x="124.46" y="66.04"/>
 <instance part="R2" gate="G$1" x="55.88" y="93.98"/>
 <instance part="LED" gate="G$1" x="7.62" y="45.72"/>
-<instance part="RN1" gate="A" x="20.32" y="93.98"/>
-<instance part="RN1" gate="B" x="20.32" y="86.36"/>
-<instance part="RN1" gate="C" x="20.32" y="78.74"/>
+<instance part="RN1" gate="A" x="195.58" y="20.32"/>
+<instance part="RN1" gate="B" x="195.58" y="15.24"/>
+<instance part="RN1" gate="C" x="195.58" y="10.16"/>
 <instance part="RN1" gate="D" x="20.32" y="71.12"/>
 <instance part="RN1" gate="E" x="20.32" y="50.8"/>
 <instance part="RN1" gate="F" x="20.32" y="48.26"/>
@@ -13574,6 +13575,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="K1" gate="1" x="139.7" y="111.76"/>
 <instance part="K1" gate="2" x="154.94" y="106.68"/>
 <instance part="RELAY" gate="G$1" x="152.4" y="127" rot="R270"/>
+<instance part="SUPPLY32" gate="GND" x="203.2" y="2.54"/>
 </instances>
 <busses>
 <bus name="LED[1..4]">
@@ -13716,6 +13718,33 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="T1" gate="G$1" pin="E"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="139.7" y1="88.9" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RN1" gate="A" pin="1"/>
+<wire x1="190.5" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="20.32" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="B" pin="1"/>
+<wire x1="187.96" y1="15.24" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="15.24" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+<junction x="187.96" y="15.24"/>
+<pinref part="RN1" gate="C" pin="1"/>
+<wire x1="187.96" y1="10.16" x2="190.5" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="10.16" x2="187.96" y2="5.08" width="0.1524" layer="91"/>
+<junction x="187.96" y="10.16"/>
+<wire x1="187.96" y1="5.08" x2="203.2" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="A" pin="2"/>
+<wire x1="200.66" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="B" pin="2"/>
+<wire x1="203.2" y1="20.32" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="15.24" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="RN1" gate="C" pin="2"/>
+<wire x1="200.66" y1="10.16" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="10.16" x2="203.2" y2="15.24" width="0.1524" layer="91"/>
+<junction x="203.2" y="15.24"/>
+<wire x1="203.2" y1="5.08" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
+<junction x="203.2" y="10.16"/>
+<pinref part="SUPPLY32" gate="GND" pin="GND"/>
+<junction x="203.2" y="5.08"/>
 </segment>
 </net>
 <net name="VCC" class="0">
