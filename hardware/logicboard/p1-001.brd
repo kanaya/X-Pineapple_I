@@ -3491,7 +3491,7 @@ design rules under a new name.</description>
 <attribute name="SF_ID" value="PRT-09916" x="52" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="50.349" y="61.54" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:24913/1" value="" x="36.83" y="36.83" smashed="yes">
+<element name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="DIL16" package3d_urn="urn:adsk.eagle:package:24913/1" value="330" x="36.83" y="36.83" smashed="yes">
 <attribute name="MF" value="" x="36.83" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="36.83" y="36.83" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.21" y="36.83" size="0.6096" layer="25" ratio="10" rot="R90" align="bottom-center"/>
