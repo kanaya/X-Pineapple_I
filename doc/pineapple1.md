@@ -10,6 +10,7 @@ Pineapple I is a PWD driver.
 
 * Power -- DC Input (+12V)
 * LightDrive
+* Indicator/Reset
 
 ### Back Panel
 
@@ -67,3 +68,4 @@ Pineapple I is a PWD driver.
 | Indicator | D13 (PWM)              | D2               |
 | ID        | D8                     | D8               |
 | Relay     | D12                    | ---              |
+| Reserved  | A0-A5                  | A0-A3, A6, A7    |
