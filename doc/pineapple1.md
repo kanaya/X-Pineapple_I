@@ -2,7 +2,7 @@
 
 ## Description
 
-Pineapple I is a PWD driver.
+Pineapple I is a LED driver.
 
 ## Connectors
 
@@ -19,22 +19,33 @@ Pineapple I is a PWD driver.
 
 ## LightDrive
 
-| LightDrive Pin | Meaning     |
-|----------------|-------------|
-| D1             | Vout (+12V) |
-| D2             | GND         |
-| D3             | LD1         |
-| D4             | LD2         |
-| D5             | LD3         |
-| D6             | LD4         |
-| D7             | LD5         |
-| D8             | LD6         |
-| D9             | LD7         |
-| D10            | LD8         |
-| D11            | LD9         |
-| D12            | LD10        |
-| D13            | LD11        |
-| D14            | LD12        |
+| LightDrive Pin | Meaning   |
+|----------------|-----------|
+| D1             | Vcc (+5V) |
+| D2             | GND       |
+| D3             | Light     |
+| D4             | Light     |
+| D5             | Light     |
+| D6             | Light     |
+| D7             | Light     |
+| D8             | Light     |
+| D9             | Light     |
+| D10            | Light     |
+| D11            | Light     |
+| D12            | Light     |
+| D13            | Light     |
+| D14            | Light     |
+
+## MIDI IN
+
+| MIDI IN Pin | Meaning |
+|-------------|---------|
+| m1          |         |
+| m2          |         |
+| m3          |         |
+| m4          | Source  |
+| m5          | Drain   |
+
 
 ## MIDI THRU+R
 
@@ -51,21 +62,23 @@ Pineapple I is a PWD driver.
 
 ## MPU Pinout
 
-| Meaning   | Arduino Micro          | Arduino Pro Mini |
-|-----------|------------------------|------------------|
-| MIDI IN   | D1 (RX, INT)           | D1 (RX)          |
-| I2C SDA   | D2 (I2C SDA, INT)      | A4 (SDA)         |
-| I2C SCL   | D3 (I2C SCL, INT, PWM) | A5 (SCL)         |
-| BLANK     | D4                     | D4               |
-| XLAT      | D7                     | D7               |
-| GSCLCK    | D6 (PWM)               | D6 (PWM)         |
-| SIN       | MOSI                   | D11 (MOSI, PWM)  |
-| SCLCK     | SCLCK                  | D13 (SCLK)       |
-| LED1      | D5 (PWM)               | D5 (PWM)         |
-| LED2      | D9 (PWM)               | D9 (PWM)         |
-| LED3      | D10 (PWM)              | D10 (PWM)        |
-| LED4      | D11 (PWM)              | D3 (PWM, INT)    |
-| Indicator | D13 (PWM)              | D2               |
-| ID        | D8                     | D8               |
-| Relay     | D12                    | ---              |
-| Reserved  | A0-A5                  | A0-A3, A6, A7    |
+| Arduino Micro      | Meaning                  |
+|--------------------|--------------------------|
+| D0 (RX, INT)       | MIDI IN                  |
+| D1 (TX, INT)       | MIDI OUT (not connected) |
+| D2 (I2C, INT)      | SW1                      |
+| D3 (I2C, INT, PWM) | SW2                      |
+| D4/A6              | BLANK                    |
+| D5 (PWM)           | SW3                      |
+| D6/A7 (PWM)        | GSCLCK                   |
+| D7 (INT)           | SW0                      |
+| D8/A8              | XLAT                     |
+| D9/A9 (PWM)        | Reserved for BT          |
+| D10/A10 (PWM)      | Reserved for BT          |
+| D11 (PWM)          | SW4                      |
+| D12/A11            | Relay                    |
+| D13 (LED, PWM)     | Indicator                |
+| MOSI               | SOUT                     |
+| SCLCK              | SCLCK                    |
+| A0-A5              | Reserved                 |
+
