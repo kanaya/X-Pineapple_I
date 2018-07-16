@@ -40,9 +40,9 @@ Pineapple I is a LED driver.
 
 | MIDI IN Pin | Meaning |
 |-------------|---------|
-| m1          |         |
-| m2          |         |
-| m3          |         |
+| m1          | NC      |
+| m2          | NC      |
+| m3          | NC      |
 | m4          | Source  |
 | m5          | Drain   |
 
@@ -62,23 +62,23 @@ Pineapple I is a LED driver.
 
 ## MPU Pinout
 
-| Arduino Micro      | Meaning                  |
-|--------------------|--------------------------|
-| D0 (RX, INT)       | MIDI IN                  |
-| D1 (TX, INT)       | MIDI OUT (not connected) |
-| D2 (I2C, INT)      | SW1                      |
-| D3 (I2C, INT, PWM) | SW2                      |
-| D4/A6              | BLANK                    |
-| D5 (PWM)           | SW3                      |
-| D6/A7 (PWM)        | GSCLCK                   |
-| D7 (INT)           | SW0                      |
-| D8/A8              | XLAT                     |
-| D9/A9 (PWM)        | Reserved for BT          |
-| D10/A10 (PWM)      | Reserved for BT          |
-| D11 (PWM)          | SW4                      |
-| D12/A11            | Relay                    |
-| D13 (LED, PWM)     | Indicator                |
-| MOSI               | SOUT                     |
-| SCLCK              | SCLCK                    |
-| A0-A5              | Reserved                 |
+| Arduino Micro      | Meaning               |
+|--------------------|-----------------------|
+| D0 (RX, INT)       | MIDI IN               |
+| D1 (TX, INT)       | MIDI OUT (board only) |
+| D2 (I2C, INT)      | SW1                   |
+| D3 (I2C, INT, PWM) | SW2                   |
+| D4/A6              | BLANK                 |
+| D5 (PWM)           | SW3                   |
+| D6/A7 (PWM)        | GSCLCK                |
+| D7 (INT)           | Alt RX                |
+| D8/A8              | XLAT                  |
+| D9/A9 (PWM)        | Alt TX                |
+| D10/A10 (PWM)      | Reserved              |
+| D11 (PWM)          | SW4                   |
+| D12/A11            | Relay                 |
+| D13 (LED, PWM)     | Indicator             |
+| MOSI               | SOUT                  |
+| SCLCK              | SCLCK                 |
+| A0-A5              | Reserved              |
 
