@@ -74,11 +74,11 @@ Pineapple I is a LED driver.
 | D7 (INT)           | Alt RX                |
 | D8/A8              | XLAT                  |
 | D9/A9 (PWM)        | Alt TX                |
-| D10/A10 (PWM)      | Reserved              |
+| D10/A10 (PWM)      | RSRV (board only)     |
 | D11 (PWM)          | SW4                   |
 | D12/A11            | Relay                 |
 | D13 (LED, PWM)     | Indicator             |
 | MOSI               | SOUT                  |
 | SCLCK              | SCLCK                 |
-| A0-A5              | Reserved              |
+| A0-A5              | Analog (board only)   |
 
