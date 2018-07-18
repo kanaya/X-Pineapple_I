@@ -65,20 +65,20 @@ Pineapple I is a LED driver.
 | Arduino Micro      | Meaning               |
 |--------------------|-----------------------|
 | D0 (RX, INT)       | MIDI IN               |
-| D1 (TX, INT)       | MIDI OUT (board only) |
-| D2 (I2C, INT)      | SW1                   |
-| D3 (I2C, INT, PWM) | SW2                   |
-| D4/A6              | BLANK                 |
+| D1 (TX, INT)       | NC                    |
+| D2 (I2C, INT)      | SW1/I2C               |
+| D3 (I2C, INT, PWM) | SW2/I2C               |
+| D4/A6              | RSV1                  |
 | D5 (PWM)           | SW3                   |
-| D6/A7 (PWM)        | GSCLCK                |
-| D7 (INT)           | Alt RX                |
-| D8/A8              | XLAT                  |
-| D9/A9 (PWM)        | Alt TX                |
-| D10/A10 (PWM)      | RSRV (board only)     |
+| D6/A7 (PWM)        | RSV2                  |
+| D7 (INT)           | DIGITAL7              |
+| D8/A8              | BLANK                 |
+| D9/A9 (PWM)        | XLAT                  |
+| D10/A10 (PWM)      | GSCLCK                |
 | D11 (PWM)          | SW4                   |
-| D12/A11            | Relay                 |
-| D13 (LED, PWM)     | Indicator             |
+| D12/A11            | RSV3                  |
+| D13 (LED, PWM)     | INDICATOR             |
 | MOSI               | SOUT                  |
 | SCLCK              | SCLCK                 |
-| A0-A5              | Analog (board only)   |
+| A0-A5              | NC                    |
 
