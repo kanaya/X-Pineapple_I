@@ -13804,6 +13804,7 @@ distributor Buerklin, 17G482</description>
 <part name="RSRV" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="$1_47_$_2018-07-15_07-03-02" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:25955/1" value="10k"/>
+<part name="XLD" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -13873,13 +13874,14 @@ distributor Buerklin, 17G482</description>
 <instance part="RSRV" gate="G$1" x="124.46" y="22.86"/>
 <instance part="$1_47_$_2018-07-15_07-03-02" gate="GND" x="116.84" y="10.16"/>
 <instance part="R2" gate="G$1" x="27.94" y="101.6"/>
+<instance part="XLD" gate="A" x="154.94" y="71.12"/>
 </instances>
 <busses>
 <bus name="LD[1..16]">
 <segment>
 <wire x1="60.96" y1="129.54" x2="139.7" y2="129.54" width="0.762" layer="92"/>
 <wire x1="139.7" y1="129.54" x2="142.24" y2="127" width="0.762" layer="92" curve="-90"/>
-<wire x1="142.24" y1="127" x2="142.24" y2="91.44" width="0.762" layer="92"/>
+<wire x1="142.24" y1="127" x2="142.24" y2="71.12" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="AI[1..6]">
@@ -13924,6 +13926,10 @@ distributor Buerklin, 17G482</description>
 <pinref part="IC1" gate="E" pin="I"/>
 <wire x1="213.36" y1="30.48" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
 <junction x="210.82" y="17.78"/>
+<pinref part="IC1" gate="B" pin="I"/>
+<wire x1="213.36" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="43.18" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
+<junction x="210.82" y="30.48"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
@@ -13991,6 +13997,14 @@ distributor Buerklin, 17G482</description>
 <wire x1="193.04" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="99.06" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
 <junction x="195.58" y="93.98"/>
+<pinref part="RN2" gate="D" pin="2"/>
+<wire x1="193.04" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="109.22" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<junction x="195.58" y="99.06"/>
+<pinref part="RN2" gate="E" pin="2"/>
+<wire x1="195.58" y1="104.14" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<junction x="195.58" y="104.14"/>
 </segment>
 <segment>
 <pinref part="RN2" gate="H" pin="1"/>
@@ -14005,6 +14019,14 @@ distributor Buerklin, 17G482</description>
 <wire x1="182.88" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="99.06" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 <junction x="180.34" y="93.98"/>
+<pinref part="RN2" gate="D" pin="1"/>
+<wire x1="182.88" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="109.22" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
+<junction x="180.34" y="99.06"/>
+<pinref part="RN2" gate="E" pin="1"/>
+<wire x1="180.34" y1="104.14" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="104.14" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
+<junction x="180.34" y="104.14"/>
 </segment>
 <segment>
 <pinref part="PWR" gate="G$1" pin="2"/>
@@ -14343,11 +14365,23 @@ distributor Buerklin, 17G482</description>
 <pinref part="PWMDRV" gate="G$1" pin="OUT12"/>
 <wire x1="88.9" y1="127" x2="91.44" y2="129.54" width="0.1524" layer="91" curve="-90"/>
 </segment>
+<segment>
+<pinref part="XLD" gate="A" pin="1"/>
+<wire x1="142.24" y1="78.74" x2="144.78" y2="76.2" width="0.1524" layer="91" curve="90"/>
+<wire x1="144.78" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<label x="144.78" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LD14" class="0">
 <segment>
 <pinref part="PWMDRV" gate="G$1" pin="OUT13"/>
 <wire x1="91.44" y1="127" x2="93.98" y2="129.54" width="0.1524" layer="91" curve="-90"/>
+</segment>
+<segment>
+<pinref part="XLD" gate="A" pin="2"/>
+<wire x1="142.24" y1="76.2" x2="144.78" y2="73.66" width="0.1524" layer="91" curve="90"/>
+<wire x1="144.78" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="144.78" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LD15" class="0">
@@ -14355,11 +14389,23 @@ distributor Buerklin, 17G482</description>
 <pinref part="PWMDRV" gate="G$1" pin="OUT14"/>
 <wire x1="93.98" y1="127" x2="96.52" y2="129.54" width="0.1524" layer="91" curve="-90"/>
 </segment>
+<segment>
+<pinref part="XLD" gate="A" pin="3"/>
+<wire x1="142.24" y1="73.66" x2="144.78" y2="71.12" width="0.1524" layer="91" curve="90"/>
+<wire x1="144.78" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<label x="144.78" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LD16" class="0">
 <segment>
 <pinref part="PWMDRV" gate="G$1" pin="OUT15"/>
 <wire x1="96.52" y1="127" x2="99.06" y2="129.54" width="0.1524" layer="91" curve="-90"/>
+</segment>
+<segment>
+<pinref part="XLD" gate="A" pin="4"/>
+<wire x1="142.24" y1="71.12" x2="144.78" y2="68.58" width="0.1524" layer="91" curve="90"/>
+<wire x1="144.78" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="144.78" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -14632,18 +14678,16 @@ distributor Buerklin, 17G482</description>
 <errors>
 <approved hash="101,1,233.68,30.48,IC1E,O,,,,"/>
 <approved hash="101,1,233.68,17.78,IC1F,O,,,,"/>
+<approved hash="101,1,233.68,43.18,IC1B,O,,,,"/>
 <approved hash="113,1,191.177,32.9523,IN,,,,,"/>
 <approved hash="113,1,191.177,54.5423,THRU,,,,,"/>
 <approved hash="113,1,4.40267,86.4277,FRONT,,,,,"/>
-<approved hash="113,1,191.177,71.0523,RELAY,,,,,"/>
-<approved hash="113,1,191.177,21.5223,OUT,,,,,"/>
-<approved hash="113,1,119.38,48.2371,TH,,,,,"/>
-<approved hash="113,1,4.40267,121.988,EXTLIGHT,,,,,"/>
-<approved hash="113,1,-1.22767,42.9539,RGND,,,,,"/>
+<approved hash="113,1,119.38,48.2371,CH,,,,,"/>
 <approved hash="113,1,-1.49197,63.2739,ANALOG,,,,,"/>
 <approved hash="113,1,23.4126,64.5439,VSELECT,,,,,"/>
 <approved hash="113,1,-1.39378,101.374,ALTCOM,,,,,"/>
 <approved hash="113,1,122.157,25.6261,RSRV,,,,,"/>
+<approved hash="113,1,152.637,73.8861,XLD,,,,,"/>
 </errors>
 </schematic>
 </drawing>
