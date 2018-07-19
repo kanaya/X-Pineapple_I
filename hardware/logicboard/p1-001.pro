@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/kanaya/Home/Pineapple_I/hardware/logicboard/p1-001.brd
 
-Start at      : 23:10:28 (2018/07/19)
-End at        : 23:10:59 (2018/07/19)
-Elapsed time  : 00:00:29
+Start at      : 06:28:47 (2018/07/20)
+End at        : 06:29:22 (2018/07/20)
+Elapsed time  : 00:00:33
 
 Signals       :    51   RoutingGrid: 10 mil  Layers: 2
-Connections   :    86   predefined:  0 ( 0 Vias )
+Connections   :    91   predefined:  0 ( 0 Vias )
 
 Router memory :   225816
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:17  00:00:06  00:00:01  00:00:01  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00
-Number of Ripups  :         0       103         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         3         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        23         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:17  00:00:07  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01  00:00:00  00:00:01  00:00:00
+Number of Ripups  :         0        78         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         5         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0        25         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        51        86        86        86        86        86        86        86        86        86        86        86        86        86
-Vias              :         0       128       110       101        99        97        95        90        84        77        76        72        69        67
-Resolution        :    59.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        62        91        91        91        91        91        91        91        91        91        91        91        91        91
+Vias              :         0       125        99        87        85        85        85        85        81        74        74        74        72        72
+Resolution        :    68.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
