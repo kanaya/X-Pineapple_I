@@ -13520,26 +13520,26 @@ distributor Buerklin, 17G482</description>
 <instances>
 <instance part="IC1" gate="A" x="149.86" y="58.42"/>
 <instance part="OK1" gate="A" x="149.86" y="43.18" rot="MR0"/>
-<instance part="SUPPLY4" gate="G$1" x="218.44" y="104.14"/>
-<instance part="SUPPLY6" gate="G$1" x="226.06" y="104.14"/>
-<instance part="SUPPLY10" gate="G$1" x="233.68" y="104.14"/>
-<instance part="SUPPLY11" gate="GND" x="233.68" y="86.36"/>
-<instance part="SUPPLY7" gate="GND" x="226.06" y="86.36"/>
-<instance part="SUPPLY5" gate="GND" x="218.44" y="86.36"/>
-<instance part="SUPPLY3" gate="GND" x="210.82" y="86.36"/>
-<instance part="C1" gate="G$1" x="210.82" y="96.52"/>
-<instance part="C2" gate="G$1" x="218.44" y="96.52"/>
-<instance part="C3" gate="G$1" x="226.06" y="96.52"/>
-<instance part="C4" gate="G$1" x="233.68" y="96.52"/>
-<instance part="IC1" gate="D" x="223.52" y="48.26"/>
-<instance part="IC1" gate="E" x="223.52" y="35.56"/>
-<instance part="IC1" gate="F" x="223.52" y="22.86"/>
-<instance part="$1_55_$_2018-07-15_07-03-06" gate="GND" x="210.82" y="15.24"/>
-<instance part="IC1" gate="B" x="223.52" y="73.66"/>
-<instance part="IC1" gate="C" x="223.52" y="60.96"/>
+<instance part="SUPPLY4" gate="G$1" x="213.36" y="109.22"/>
+<instance part="SUPPLY6" gate="G$1" x="220.98" y="109.22"/>
+<instance part="SUPPLY10" gate="G$1" x="228.6" y="109.22"/>
+<instance part="SUPPLY11" gate="GND" x="228.6" y="91.44"/>
+<instance part="SUPPLY7" gate="GND" x="220.98" y="91.44"/>
+<instance part="SUPPLY5" gate="GND" x="213.36" y="91.44"/>
+<instance part="SUPPLY3" gate="GND" x="205.74" y="91.44"/>
+<instance part="C1" gate="G$1" x="205.74" y="101.6"/>
+<instance part="C2" gate="G$1" x="213.36" y="101.6"/>
+<instance part="C3" gate="G$1" x="220.98" y="101.6"/>
+<instance part="C4" gate="G$1" x="228.6" y="101.6"/>
+<instance part="IC1" gate="D" x="218.44" y="53.34"/>
+<instance part="IC1" gate="E" x="218.44" y="40.64"/>
+<instance part="IC1" gate="F" x="218.44" y="27.94"/>
+<instance part="$1_55_$_2018-07-15_07-03-06" gate="GND" x="205.74" y="20.32"/>
+<instance part="IC1" gate="B" x="218.44" y="78.74"/>
+<instance part="IC1" gate="C" x="218.44" y="66.04"/>
 <instance part="D1" gate="G$1" x="167.64" y="43.18" rot="MR90"/>
 <instance part="SUPPLY14" gate="G$1" x="22.86" y="53.34"/>
-<instance part="$1_39_$_2018-07-15_07-03-06" gate="GND" x="33.02" y="5.08"/>
+<instance part="$1_39_$_2018-07-15_07-03-06" gate="GND" x="33.02" y="20.32"/>
 <instance part="IN" gate="G$1" x="195.58" y="40.64" rot="R180"/>
 <instance part="THRU" gate="J$1" x="195.58" y="60.96" rot="R180"/>
 <instance part="$1_53_$_2018-07-15_07-03-06" gate="GND" x="185.42" y="48.26"/>
@@ -13548,16 +13548,16 @@ distributor Buerklin, 17G482</description>
 <instance part="PWR" gate="G$1" x="0" y="25.4"/>
 <instance part="$1_51_$_2018-07-15_07-03-06" gate="VDD" x="12.7" y="30.48"/>
 <instance part="SUPPLY12" gate="VDD" x="22.86" y="43.18"/>
-<instance part="$1_52_$_2018-07-15_07-03-06" gate="GND" x="10.16" y="5.08"/>
+<instance part="$1_52_$_2018-07-15_07-03-06" gate="GND" x="10.16" y="20.32"/>
 <instance part="FRONT" gate="G$1" x="2.54" y="88.9"/>
-<instance part="SUPPLY13" gate="G$1" x="10.16" y="139.7"/>
+<instance part="SUPPLY13" gate="G$1" x="10.16" y="101.6"/>
 <instance part="SUPPLY9" gate="GND" x="12.7" y="83.82"/>
 <instance part="LD" gate="G$1" x="149.86" y="109.22"/>
 <instance part="$1_45_$_2018-07-15_07-03-06" gate="GND" x="139.7" y="86.36"/>
-<instance part="SUPPLY2" gate="VDD" x="210.82" y="104.14"/>
+<instance part="SUPPLY2" gate="VDD" x="205.74" y="109.22"/>
 <instance part="RREF" gate="G$1" x="55.88" y="99.06"/>
 <instance part="$1_48_$_2018-07-15_07-03-06" gate="G$1" x="137.16" y="73.66"/>
-<instance part="$1_41_$_2018-07-15_07-03-06" gate="GND" x="81.28" y="5.08"/>
+<instance part="$1_41_$_2018-07-15_07-03-06" gate="GND" x="81.28" y="20.32"/>
 <instance part="$1_44_$_2018-07-15_07-03-06" gate="G$1" x="139.7" y="139.7"/>
 <instance part="R1" gate="G$1" x="25.4" y="93.98"/>
 <instance part="CH" gate="1" x="121.92" y="53.34" rot="R90"/>
@@ -13568,7 +13568,7 @@ distributor Buerklin, 17G482</description>
 <instance part="R2" gate="G$1" x="175.26" y="68.58"/>
 <instance part="R3" gate="G$1" x="175.26" y="58.42"/>
 <instance part="R4" gate="G$1" x="175.26" y="48.26"/>
-<instance part="SUPPLY1" gate="G$1" x="48.26" y="139.7"/>
+<instance part="SUPPLY1" gate="G$1" x="48.26" y="111.76"/>
 <instance part="I2CSW" gate="A" x="101.6" y="53.34" rot="MR180"/>
 <instance part="RSV" gate="A" x="104.14" y="30.48" rot="MR180"/>
 </instances>
@@ -13596,49 +13596,49 @@ distributor Buerklin, 17G482</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="210.82" y1="91.44" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="96.52" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="218.44" y1="91.44" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="96.52" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<wire x1="226.06" y1="91.44" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="233.68" y1="91.44" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="96.52" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="$1_55_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
 <pinref part="IC1" gate="F" pin="I"/>
-<wire x1="210.82" y1="35.56" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="22.86" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="40.64" x2="205.74" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="27.94" x2="205.74" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="27.94" x2="205.74" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="E" pin="I"/>
-<wire x1="213.36" y1="35.56" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-<junction x="210.82" y="22.86"/>
+<wire x1="208.28" y1="40.64" x2="205.74" y2="40.64" width="0.1524" layer="91"/>
+<junction x="205.74" y="27.94"/>
 <pinref part="IC1" gate="B" pin="I"/>
-<wire x1="213.36" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="73.66" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<junction x="210.82" y="35.56"/>
+<wire x1="208.28" y1="78.74" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="78.74" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<junction x="205.74" y="40.64"/>
 <pinref part="IC1" gate="C" pin="I"/>
-<wire x1="210.82" y1="60.96" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="48.26" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<junction x="210.82" y="60.96"/>
+<wire x1="205.74" y1="66.04" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="53.34" x2="205.74" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<junction x="205.74" y="66.04"/>
 <pinref part="IC1" gate="D" pin="I"/>
-<wire x1="213.36" y1="48.26" x2="210.82" y2="48.26" width="0.1524" layer="91"/>
-<junction x="210.82" y="48.26"/>
+<wire x1="208.28" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<junction x="205.74" y="53.34"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="$1_39_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
-<wire x1="33.02" y1="43.18" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -13672,7 +13672,7 @@ distributor Buerklin, 17G482</description>
 <segment>
 <pinref part="$1_41_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
 <wire x1="76.2" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="48.26" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="48.26" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
@@ -13685,24 +13685,24 @@ distributor Buerklin, 17G482</description>
 <pinref part="PWR" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="$1_52_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
-<wire x1="10.16" y1="27.94" x2="10.16" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="101.6" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="106.68" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="101.6" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="106.68" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="101.6" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="106.68" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
@@ -13712,8 +13712,7 @@ distributor Buerklin, 17G482</description>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-<wire x1="10.16" y1="116.84" x2="10.16" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="116.84" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="99.06" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="FRONT" gate="G$1" pin="1"/>
 <label x="7.62" y="86.36" size="1.778" layer="95"/>
@@ -13733,10 +13732,9 @@ distributor Buerklin, 17G482</description>
 <wire x1="48.26" y1="104.14" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="RREF" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="104.14" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="104.14" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 <junction x="48.26" y="104.14"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="48.26" y1="137.16" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="137.16" x2="139.7" y2="127" width="0.1524" layer="91"/>
@@ -13860,7 +13858,7 @@ distributor Buerklin, 17G482</description>
 <segment>
 <pinref part="SUPPLY2" gate="VDD" pin="VDD"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="104.14" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="109.22" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="$1_51_$_2018-07-15_07-03-06" gate="VDD" pin="VDD"/>
@@ -14278,11 +14276,11 @@ distributor Buerklin, 17G482</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,233.68,48.26,IC1D,O,,,,"/>
-<approved hash="101,1,233.68,35.56,IC1E,O,,,,"/>
-<approved hash="101,1,233.68,22.86,IC1F,O,,,,"/>
-<approved hash="101,1,233.68,73.66,IC1B,O,,,,"/>
-<approved hash="101,1,233.68,60.96,IC1C,O,,,,"/>
+<approved hash="101,1,228.6,53.34,IC1D,O,,,,"/>
+<approved hash="101,1,228.6,40.64,IC1E,O,,,,"/>
+<approved hash="101,1,228.6,27.94,IC1F,O,,,,"/>
+<approved hash="101,1,228.6,78.74,IC1B,O,,,,"/>
+<approved hash="101,1,228.6,66.04,IC1C,O,,,,"/>
 <approved hash="113,1,191.177,38.0323,IN,,,,,"/>
 <approved hash="113,1,191.177,59.6223,THRU,,,,,"/>
 <approved hash="113,1,4.40267,91.5077,FRONT,,,,,"/>
@@ -14290,7 +14288,7 @@ distributor Buerklin, 17G482</description>
 <approved hash="113,1,-1.49197,68.3539,ANALOG,,,,,"/>
 <approved hash="113,1,150.097,78.9661,XLD,,,,,"/>
 <approved hash="113,1,102.828,51.8439,I2CSW,,,,,"/>
-<approved hash="113,1,101.837,28.9839,RSRV,,,,,"/>
+<approved hash="113,1,101.837,28.9839,RSV,,,,,"/>
 </errors>
 </schematic>
 </drawing>
