@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14984,10 +14984,11 @@ CONN_05
 <wire x1="76.2" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="I2CSW" gate="A" pin="1"/>
 <wire x1="91.44" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="88.9" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="86.36" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 <junction x="91.44" y="50.8"/>
-<pinref part="I2C" gate="G$1" pin="3"/>
-<wire x1="119.38" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="I2C" gate="G$1" pin="4"/>
+<wire x1="91.44" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="109.22" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -14996,10 +14997,11 @@ CONN_05
 <wire x1="76.2" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="I2CSW" gate="A" pin="3"/>
 <wire x1="93.98" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="86.36" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="88.9" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <junction x="93.98" y="53.34"/>
-<pinref part="I2C" gate="G$1" pin="4"/>
-<wire x1="119.38" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="I2C" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<label x="109.22" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW1" class="0">
@@ -15027,6 +15029,7 @@ CONN_05
 <wire x1="119.38" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <junction x="99.06" y="63.5"/>
+<label x="109.22" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SW4" class="0">
