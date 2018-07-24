@@ -3474,7 +3474,7 @@ design rules under a new name.</description>
 <element name="LD" library="con-hirose-dx10lm1-14se" package="HIROSE-DX10LM1-14SE" value="HIROSE-DX10LM1-14SE" x="5" y="36" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="5" y="36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="AXR30545" x="5" y="36" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15" y="55" size="0.8128" layer="25" rot="R90"/>
+<attribute name="NAME" x="14" y="55" size="0.8128" layer="25" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="5" y="36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="11N4069" x="5" y="36" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.16" y="36" size="1.27" layer="27" rot="R270"/>
