@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -152,16 +152,11 @@
 <hole x="44" y="3" drill="3.2"/>
 <hole x="44" y="69" drill="3.2"/>
 <hole x="3" y="69" drill="3.2"/>
-<text x="14" y="62" size="0.8128" layer="25" rot="R90" align="center">FRONT</text>
-<text x="7" y="12" size="0.8128" layer="25" rot="R90" align="center">PWR12V</text>
-<text x="41" y="21" size="0.8128" layer="25" rot="R90" align="center-left">THRU</text>
-<text x="41" y="5" size="0.8128" layer="25" rot="R90" align="center-right">IN</text>
 <text x="3.81" y="55.88" size="1.016" layer="25" rot="R90">Pineapple I 1.0.0
 Pineapple Design</text>
 <text x="43.18" y="33.02" size="0.6096" layer="25" rot="R90" align="center">NC</text>
 <text x="40.64" y="43.18" size="0.8128" layer="25" rot="R90" align="center">D7</text>
 <text x="40.64" y="33.02" size="0.8128" layer="25" rot="R90" align="center">I2C</text>
-<text x="44.91" y="23.02" size="0.8128" layer="25" rot="R90" align="bottom-right">I2C</text>
 <hole x="17.78" y="8.89" drill="1"/>
 <hole x="33.02" y="8.89" drill="1"/>
 <text x="33.02" y="6.35" size="0.8128" layer="25" rot="R180" align="center">USB</text>
@@ -3444,7 +3439,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.78" y="4.953" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="FRONT" library="SparkFun-Connectors" package="JST-4-PTH" value="" x="21" y="62" smashed="yes" rot="R90">
-<attribute name="NAME" x="16" y="62" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="14" y="62" size="0.8128" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PROD_ID" value="WIRE-13531" x="21" y="62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-09916" x="21" y="62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.46" y="60.349" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
@@ -3453,20 +3448,20 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.64" y="62.04" size="0.6096" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="40.005" y="62.611" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="PWR" library="SparkFun-Connectors" package="JST-2-PTH" value="12V" x="14" y="12" smashed="yes" rot="R90">
-<attribute name="NAME" x="9" y="12" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<element name="PWR12V" library="SparkFun-Connectors" package="JST-2-PTH" value="12V" x="14" y="12" smashed="yes" rot="R90">
+<attribute name="NAME" x="7" y="12" size="0.8128" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PROD_ID" value="CONN-09863" x="14" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SKU" value="PRT-09914" x="14" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.27" y="10.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="THRU" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="41" y="16" smashed="yes" rot="R270">
-<attribute name="NAME" x="46" y="16" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="NAME" x="39" y="16" size="0.8128" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="WIRE-10037" x="41" y="16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-09915" x="41" y="16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="43.54" y="17.651" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="IN" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="41" y="9" smashed="yes" rot="R270">
-<attribute name="NAME" x="46" y="9" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
+<attribute name="NAME" x="39" y="9" size="0.8128" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-09863" x="41" y="9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SKU" value="PRT-09914" x="41" y="9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="43.73" y="10.27" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
@@ -3533,14 +3528,14 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.525" y="58.42" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="I2C" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X05_1MM_RA" package3d_urn="urn:adsk.eagle:package:38106/1" value="" x="41" y="28" smashed="yes" rot="R90">
-<attribute name="NAME" x="44" y="28" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="46" y="28" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="VALUE" x="44.302" y="26.349" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="VOUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="36.83" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.83" y="44.45" size="0.8128" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="40.005" y="34.29" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="VCC" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-3-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="" x="4" y="12" smashed="yes" rot="R90">
+<element name="VCC/VREF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-3-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="" x="4" y="12" smashed="yes" rot="R90">
 <attribute name="NAME" x="1" y="12" size="0.8128" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
 <attribute name="PROD_ID" value="CONN-13230" x="4" y="12" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.302" y="10.349" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
@@ -3566,13 +3561,13 @@ design rules under a new name.</description>
 <contactref element="LD" pad="P$18"/>
 <contactref element="U$1" pad="P$21"/>
 <contactref element="CH" pad="C"/>
-<contactref element="PWR" pad="2"/>
+<contactref element="PWR12V" pad="2"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="IC1" pad="5"/>
 <contactref element="IC1" pad="9"/>
 <contactref element="I2C" pad="5"/>
 <contactref element="VOUT" pad="3"/>
-<contactref element="VCC" pad="2"/>
+<contactref element="VCC/VREF" pad="2"/>
 <wire x1="10.922" y1="28.194" x2="10.922" y2="33.274" width="0.254" layer="1"/>
 <wire x1="10.922" y1="33.274" x2="11" y2="33.46" width="0.254" layer="1"/>
 <wire x1="10.922" y1="28.194" x2="11" y2="28.03" width="0.254" layer="1"/>
@@ -3706,7 +3701,7 @@ design rules under a new name.</description>
 <contactref element="RREF" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="I2C" pad="1"/>
-<contactref element="VCC" pad="1"/>
+<contactref element="VCC/VREF" pad="1"/>
 <wire x1="29.21" y1="48.768" x2="29.21" y2="48.26" width="0.254" layer="1"/>
 <wire x1="25.654" y1="52.324" x2="29.21" y2="48.768" width="0.254" layer="1"/>
 <wire x1="25.654" y1="53.848" x2="25.654" y2="52.324" width="0.254" layer="1"/>
@@ -3926,7 +3921,7 @@ design rules under a new name.</description>
 <signal name="VDD">
 <contactref element="U$1" pad="P$20"/>
 <contactref element="C1" pad="1"/>
-<contactref element="PWR" pad="1"/>
+<contactref element="PWR12V" pad="1"/>
 <wire x1="15.24" y1="9.906" x2="15.24" y2="6.35" width="0.254" layer="1"/>
 <wire x1="14.224" y1="10.922" x2="15.24" y2="9.906" width="0.254" layer="1"/>
 <wire x1="14.224" y1="10.922" x2="14" y2="11" width="0.254" layer="1"/>
@@ -4749,7 +4744,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="VREF">
 <contactref element="U$1" pad="P$32"/>
-<contactref element="VCC" pad="3"/>
+<contactref element="VCC/VREF" pad="3"/>
 <wire x1="4.318" y1="13.462" x2="4.318" y2="13.97" width="0.254" layer="16"/>
 <wire x1="3.302" y1="12.446" x2="4.318" y2="13.462" width="0.254" layer="16"/>
 <wire x1="3.302" y1="9.398" x2="3.302" y2="12.446" width="0.254" layer="16"/>

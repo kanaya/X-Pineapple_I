@@ -15572,7 +15572,7 @@ CONN_03
 <part name="$1_53_$_2018-07-15_07-03-06" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="PWMDRV" library="SparkFun-Retired" deviceset="TLC5940" device="-NT"/>
 <part name="$1_43_$_2018-07-15_07-03-06" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="PWR" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2" value="12V"/>
+<part name="PWR12V" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2" value="12V"/>
 <part name="$1_51_$_2018-07-15_07-03-06" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="$1_52_$_2018-07-15_07-03-06" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -15603,7 +15603,7 @@ CONN_03
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="VOUT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="$1_39_$_2018-07-15_07-03-01" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="VCC" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1"/>
+<part name="VCC/VREF" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1"/>
 <part name="$1_52_$_2018-07-15_07-03-01" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -15639,7 +15639,7 @@ CONN_03
 <instance part="$1_53_$_2018-07-15_07-03-06" gate="GND" x="198.12" y="48.26"/>
 <instance part="PWMDRV" gate="G$1" x="76.2" y="119.38" rot="R90"/>
 <instance part="$1_43_$_2018-07-15_07-03-06" gate="GND" x="96.52" y="101.6"/>
-<instance part="PWR" gate="G$1" x="0" y="25.4"/>
+<instance part="PWR12V" gate="G$1" x="0" y="25.4"/>
 <instance part="$1_51_$_2018-07-15_07-03-06" gate="VDD" x="12.7" y="30.48"/>
 <instance part="SUPPLY12" gate="VDD" x="22.86" y="43.18"/>
 <instance part="$1_52_$_2018-07-15_07-03-06" gate="GND" x="10.16" y="20.32"/>
@@ -15670,7 +15670,7 @@ CONN_03
 <instance part="SUPPLY15" gate="GND" x="116.84" y="78.74"/>
 <instance part="VOUT" gate="A" x="22.86" y="73.66" rot="R180"/>
 <instance part="$1_39_$_2018-07-15_07-03-01" gate="GND" x="30.48" y="66.04"/>
-<instance part="VCC" gate="J$1" x="0" y="50.8"/>
+<instance part="VCC/VREF" gate="J$1" x="0" y="50.8"/>
 <instance part="$1_52_$_2018-07-15_07-03-01" gate="GND" x="10.16" y="43.18"/>
 </instances>
 <busses>
@@ -15783,7 +15783,7 @@ CONN_03
 <wire x1="144.78" y1="53.34" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PWR" gate="G$1" pin="2"/>
+<pinref part="PWR12V" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="$1_52_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
 <wire x1="10.16" y1="27.94" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
@@ -15801,7 +15801,7 @@ CONN_03
 <wire x1="30.48" y1="76.2" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VCC" gate="J$1" pin="2"/>
+<pinref part="VCC/VREF" gate="J$1" pin="2"/>
 <wire x1="7.62" y1="50.8" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="$1_52_$_2018-07-15_07-03-01" gate="GND" pin="GND"/>
 <wire x1="10.16" y1="50.8" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
@@ -15828,7 +15828,7 @@ CONN_03
 <wire x1="22.86" y1="55.88" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="5V"/>
 <wire x1="22.86" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="J$1" pin="1"/>
+<pinref part="VCC/VREF" gate="J$1" pin="1"/>
 <wire x1="22.86" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 <junction x="22.86" y="48.26"/>
 </segment>
@@ -15991,7 +15991,7 @@ CONN_03
 <segment>
 <pinref part="$1_51_$_2018-07-15_07-03-06" gate="VDD" pin="VDD"/>
 <wire x1="12.7" y1="30.48" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="PWR" gate="G$1" pin="1"/>
+<pinref part="PWR12V" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16435,7 +16435,7 @@ CONN_03
 <pinref part="U$1" gate="G$1" pin="AREF"/>
 <wire x1="50.8" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="71.12" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="VCC" gate="J$1" pin="3"/>
+<pinref part="VCC/VREF" gate="J$1" pin="3"/>
 <wire x1="35.56" y1="53.34" x2="7.62" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
