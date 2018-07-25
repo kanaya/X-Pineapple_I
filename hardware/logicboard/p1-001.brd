@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -166,6 +166,11 @@ Pineapple Design</text>
 <wire x1="16" y1="65" x2="16" y2="57" width="0.1524" layer="21"/>
 <wire x1="16" y1="57" x2="15" y2="57" width="0.1524" layer="21"/>
 <text x="6" y="61" size="5.08" layer="25" align="center">/</text>
+<text x="29.21" y="71.12" size="0.8128" layer="25" rot="R180" align="center">D4</text>
+<text x="31.75" y="71.12" size="0.8128" layer="25" rot="R180" align="center">D5</text>
+<text x="34.29" y="71.12" size="0.8128" layer="25" rot="R180" align="center">D6</text>
+<text x="36.83" y="71.12" size="0.8128" layer="25" rot="R180" align="center">D11</text>
+<text x="39.37" y="71.12" size="0.8128" layer="25" rot="R180" align="center">D12</text>
 </plain>
 <libraries>
 <library name="SparkFun-Retired">
