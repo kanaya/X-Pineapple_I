@@ -21,22 +21,22 @@ Pineapple I is a LED driver.
 
 | LightDrive Pin | Meaning   |
 |----------------|-----------|
-| D1             | Vcc (+5V) |
-| D2             | GND       |
-| D3             | Light     |
-| D4             | Light     |
-| D5             | Light     |
-| D6             | Light     |
-| D7             | Light     |
-| D8             | Light     |
-| D9             | Light     |
-| D10            | Light     |
-| D11            | Light     |
-| D12            | Light     |
-| D13            | Light     |
-| D14            | Light     |
+| LD1            | Vcc (+5V) |
+| LD2            | GND       |
+| LD3            | Light     |
+| LD4            | Light     |
+| LD5            | Light     |
+| LD6            | Light     |
+| LD7            | Light     |
+| LD8            | Light     |
+| LD9            | Light     |
+| LD10           | Light     |
+| LD11           | Light     |
+| LD12           | Light     |
+| LD13           | Light     |
+| LD14           | Light     |
 
-## MIDI IN
+##MIDI IN
 
 | MIDI IN Pin | Meaning |
 |-------------|---------|
@@ -47,13 +47,13 @@ Pineapple I is a LED driver.
 | m5          | Drain   |
 
 
-## MIDI THRU+R
+## MIDI THRU
 
 | MIDI THRU+R Pin  | Meaning  |
 |------------------|----------|
-| M1               | Relay    |
+| M1               | NC       |
 | M2               | GND      |
-| M3               | Relay    |
+| M3               | NC       |
 | M4               | Source   |
 | M5               | Drain    |
 | M6               | USB Dp   |
@@ -66,17 +66,17 @@ Pineapple I is a LED driver.
 |--------------------|-----------------------|
 | D0 (RX, INT)       | MIDI IN               |
 | D1 (TX, INT)       | NC                    |
-| D2 (I2C, INT)      | SW1/I2C               |
-| D3 (I2C, INT, PWM) | SW2/I2C               |
+| D2 (I2C, INT)      | I2C                   |
+| D3 (I2C, INT, PWM) | I2C                   |
 | D4/A6              | RSV1                  |
-| D5 (PWM)           | SW3                   |
-| D6/A7 (PWM)        | RSV2                  |
+| D5 (PWM)           | RSV2                  |
+| D6/A7 (PWM)        | RSV3                  |
 | D7 (INT)           | DIGITAL7              |
 | D8/A8              | BLANK                 |
 | D9/A9 (PWM)        | XLAT                  |
 | D10/A10 (PWM)      | GSCLCK                |
-| D11 (PWM)          | SW4                   |
-| D12/A11            | RSV3                  |
+| D11 (PWM)          | RSV4                  |
+| D12/A11            | RSV5                  |
 | D13 (LED, PWM)     | INDICATOR             |
 | MOSI               | SOUT                  |
 | SCLCK              | SCLCK                 |
