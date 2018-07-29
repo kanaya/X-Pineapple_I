@@ -3237,13 +3237,13 @@ design rules under a new name.</description>
 <attribute name="SKU" value="PRT-09914" x="17" y="14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.27" y="12.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="THRU" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="41" y="40" smashed="yes" rot="R270">
+<element name="MIDITHRU" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="41" y="40" smashed="yes" rot="R270">
 <attribute name="NAME" x="39" y="40" size="0.8128" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="WIRE-10037" x="41" y="40" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-09915" x="41" y="40" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="43.54" y="41.651" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="IN" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="41" y="33" smashed="yes" rot="R270">
+<element name="MIDIIN" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="41" y="33" smashed="yes" rot="R270">
 <attribute name="NAME" x="39" y="33" size="0.8128" layer="25" font="vector" ratio="20" rot="R270" align="center"/>
 <attribute name="PROD_ID" value="CONN-09863" x="41" y="33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SKU" value="PRT-09914" x="41" y="33" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3322,7 +3322,7 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="13"/>
 <contactref element="IC1" pad="11"/>
 <contactref element="U$1" pad="P$12"/>
-<contactref element="THRU" pad="2"/>
+<contactref element="MIDITHRU" pad="2"/>
 <contactref element="PWMDRV" pad="22"/>
 <contactref element="LIGHTDRIVE" pad="P$2"/>
 <contactref element="LIGHTDRIVE" pad="P$15"/>
@@ -3559,7 +3559,7 @@ design rules under a new name.</description>
 <via x="34.29" y="59.69" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="MIDITHRU-">
-<contactref element="THRU" pad="3"/>
+<contactref element="MIDITHRU" pad="3"/>
 <contactref element="R3" pad="2"/>
 <wire x1="41.91" y1="50.038" x2="41.91" y2="50.8" width="0.254" layer="1"/>
 <wire x1="43.434" y1="48.514" x2="41.91" y2="50.038" width="0.254" layer="1"/>
@@ -4000,7 +4000,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="MIDIIN-">
 <contactref element="OK1" pad="3"/>
-<contactref element="IN" pad="2"/>
+<contactref element="MIDIIN" pad="2"/>
 <contactref element="D1" pad="A"/>
 <wire x1="24.638" y1="11.43" x2="24.13" y2="11.43" width="0.254" layer="16"/>
 <wire x1="29.464" y1="6.604" x2="24.638" y2="11.43" width="0.254" layer="16"/>
@@ -4024,7 +4024,7 @@ design rules under a new name.</description>
 <via x="34.036" y="3.81" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="MIDIIN+">
-<contactref element="IN" pad="1"/>
+<contactref element="MIDIIN" pad="1"/>
 <contactref element="R4" pad="2"/>
 <wire x1="44.45" y1="47.244" x2="44.45" y2="50.8" width="0.254" layer="1"/>
 <wire x1="45.466" y1="46.228" x2="44.45" y2="47.244" width="0.254" layer="1"/>
@@ -4033,7 +4033,7 @@ design rules under a new name.</description>
 <wire x1="41.148" y1="34.036" x2="41" y2="34" width="0.254" layer="1"/>
 </signal>
 <signal name="MIDITHRU+">
-<contactref element="THRU" pad="1"/>
+<contactref element="MIDITHRU" pad="1"/>
 <contactref element="R2" pad="2"/>
 <wire x1="39.37" y1="47.244" x2="39.37" y2="50.8" width="0.254" layer="1"/>
 <wire x1="40.894" y1="45.72" x2="39.37" y2="47.244" width="0.254" layer="1"/>

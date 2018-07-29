@@ -42,8 +42,8 @@
 
 ## 基板とケース
 
-* Pineapple I 基板
-* Pineapple I-II 共通ケース
+* Pineapple I 基板 (47mm x 72mm)
+* Pineapple I-II 共通ケース（またはタカチMX2-8-13）
 
 ## 電源
 

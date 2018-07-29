@@ -16404,8 +16404,8 @@ CONN_06
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="-1N4148" value=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="$1_39_$_2018-07-15_07-03-06" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="IN" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
-<part name="THRU" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
+<part name="MIDIIN" library="SparkFun-Connectors" deviceset="CONN_02" device="JST-PTH-2"/>
+<part name="MIDITHRU" library="SparkFun-Connectors" deviceset="CONN_03" device="JST-PTH"/>
 <part name="$1_53_$_2018-07-15_07-03-06" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="PWMDRV" library="SparkFun-Retired" deviceset="TLC5940" device="-NT"/>
 <part name="$1_43_$_2018-07-15_07-03-06" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -16465,8 +16465,8 @@ CONN_06
 <instance part="D1" gate="G$1" x="180.34" y="43.18" rot="MR90"/>
 <instance part="SUPPLY14" gate="G$1" x="12.7" y="53.34"/>
 <instance part="$1_39_$_2018-07-15_07-03-06" gate="GND" x="48.26" y="20.32"/>
-<instance part="IN" gate="G$1" x="208.28" y="40.64" rot="R180"/>
-<instance part="THRU" gate="J$1" x="208.28" y="60.96" rot="R180"/>
+<instance part="MIDIIN" gate="G$1" x="208.28" y="40.64" rot="R180"/>
+<instance part="MIDITHRU" gate="J$1" x="208.28" y="60.96" rot="R180"/>
 <instance part="$1_53_$_2018-07-15_07-03-06" gate="GND" x="198.12" y="53.34"/>
 <instance part="PWMDRV" gate="G$1" x="76.2" y="119.38" rot="R90"/>
 <instance part="$1_43_$_2018-07-15_07-03-06" gate="GND" x="96.52" y="101.6"/>
@@ -16556,7 +16556,7 @@ CONN_06
 <pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="THRU" gate="J$1" pin="2"/>
+<pinref part="MIDITHRU" gate="J$1" pin="2"/>
 <pinref part="$1_53_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
 <wire x1="200.66" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="60.96" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
@@ -16698,7 +16698,7 @@ CONN_06
 <net name="MIDITHRU-" class="0">
 <segment>
 <wire x1="193.04" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="THRU" gate="J$1" pin="3"/>
+<pinref part="MIDITHRU" gate="J$1" pin="3"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -16953,7 +16953,7 @@ CONN_06
 <wire x1="180.34" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IN" gate="G$1" pin="2"/>
+<pinref part="MIDIIN" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="180.34" y1="40.64" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
 <junction x="180.34" y="38.1"/>
@@ -16963,7 +16963,7 @@ CONN_06
 <segment>
 <wire x1="193.04" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="48.26" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IN" gate="G$1" pin="1"/>
+<pinref part="MIDIIN" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
@@ -16972,7 +16972,7 @@ CONN_06
 <segment>
 <wire x1="193.04" y1="68.58" x2="198.12" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="68.58" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="THRU" gate="J$1" pin="1"/>
+<pinref part="MIDITHRU" gate="J$1" pin="1"/>
 <wire x1="198.12" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
