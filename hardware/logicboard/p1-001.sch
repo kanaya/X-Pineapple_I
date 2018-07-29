@@ -16481,7 +16481,7 @@ CONN_06
 <instance part="$1_45_$_2018-07-15_07-03-06" gate="GND" x="152.4" y="86.36"/>
 <instance part="SUPPLY2" gate="VDD" x="213.36" y="109.22"/>
 <instance part="$1_48_$_2018-07-15_07-03-06" gate="G$1" x="149.86" y="73.66"/>
-<instance part="$1_41_$_2018-07-15_07-03-06" gate="GND" x="81.28" y="20.32"/>
+<instance part="$1_41_$_2018-07-15_07-03-06" gate="GND" x="78.74" y="20.32"/>
 <instance part="$1_44_$_2018-07-15_07-03-06" gate="G$1" x="152.4" y="139.7"/>
 <instance part="R1" gate="G$1" x="20.32" y="99.06"/>
 <instance part="U$1" gate="G$1" x="63.5" y="55.88" rot="R270"/>
@@ -16578,8 +16578,8 @@ CONN_06
 </segment>
 <segment>
 <pinref part="$1_41_$_2018-07-15_07-03-06" gate="GND" pin="GND"/>
-<wire x1="76.2" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="48.26" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="48.26" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
@@ -16754,13 +16754,13 @@ CONN_06
 <pinref part="PWMDRV" gate="G$1" pin="SIN"/>
 <wire x1="68.58" y1="106.68" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="86.36" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="86.36" x2="33.02" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="86.36" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <label x="58.42" y="86.36" size="1.778" layer="95"/>
-<label x="48.26" y="30.48" size="1.778" layer="95"/>
+<label x="48.26" y="27.94" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="MOSI"/>
-<wire x1="76.2" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="35.56" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="35.56" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XLAT" class="0">
@@ -16806,11 +16806,18 @@ CONN_06
 </net>
 <net name="RST" class="0">
 <segment>
-<wire x1="50.8" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="R@1"/>
 <pinref part="FRONT" gate="G$1" pin="3"/>
 <wire x1="10.16" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="R@2"/>
+<wire x1="76.2" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<junction x="45.72" y="45.72"/>
 </segment>
 </net>
 <net name="LD1" class="0">
@@ -17138,8 +17145,8 @@ CONN_06
 <approved hash="101,1,236.22,27.94,IC1F,O,,,,"/>
 <approved hash="101,1,236.22,78.74,IC1B,O,,,,"/>
 <approved hash="101,1,236.22,66.04,IC1C,O,,,,"/>
-<approved hash="113,1,203.877,38.0323,IN,,,,,"/>
-<approved hash="113,1,203.877,59.6223,THRU,,,,,"/>
+<approved hash="113,1,203.877,38.0323,MIDIIN,,,,,"/>
+<approved hash="113,1,203.877,59.6223,MIDITHRU,,,,,"/>
 <approved hash="113,1,6.94267,101.532,FRONT,,,,,"/>
 <approved hash="113,1,122.597,87.5623,I2C,,,,,"/>
 <approved hash="113,1,6.94267,74.8623,VCC,,,,,"/>
