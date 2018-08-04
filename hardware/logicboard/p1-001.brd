@@ -152,7 +152,7 @@
 <hole x="44" y="3" drill="3.2"/>
 <hole x="44" y="69" drill="3.2"/>
 <hole x="3" y="69" drill="3.2"/>
-<text x="6" y="68" size="1.016" layer="25">Pineapple / 1.0.0
+<text x="6" y="68" size="1.27" layer="25">Pineapple / 1.0.1
 Pineapple Design</text>
 <hole x="20.32" y="8.89" drill="1"/>
 <hole x="35.56" y="8.89" drill="1"/>
@@ -3429,17 +3429,17 @@ design rules under a new name.</description>
 <via x="29.972" y="7.62" extent="1-16" drill="0.3"/>
 <via x="20.32" y="3.81" extent="1-16" drill="0.3"/>
 <via x="32.766" y="3.556" extent="1-16" drill="0.3"/>
-<polygon width="0.127" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="47" y="0"/>
-<vertex x="47" y="72"/>
-<vertex x="0" y="72"/>
+<polygon width="0.254" layer="1">
+<vertex x="1" y="1"/>
+<vertex x="46" y="1"/>
+<vertex x="46" y="71"/>
+<vertex x="1" y="71"/>
 </polygon>
-<polygon width="0.127" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="47" y="0"/>
-<vertex x="47" y="72"/>
-<vertex x="0" y="72"/>
+<polygon width="0.254" layer="16">
+<vertex x="1" y="1"/>
+<vertex x="46" y="1"/>
+<vertex x="46" y="71"/>
+<vertex x="1" y="71"/>
 </polygon>
 </signal>
 <signal name="VCC">
