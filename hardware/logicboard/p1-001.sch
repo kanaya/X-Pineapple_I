@@ -12254,32 +12254,6 @@ http://www.panasonic-electric-works.ch</description>
 Source: http://www.panasonic-electric-works.ch/home/www/catalogues/connector/download/en_ds_65201_0000.pdf</description>
 <text x="-17.78" y="10.16" size="1.27" layer="25">&gt;NAME</text>
 <text x="0" y="10.16" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-6.4" y1="0.25" x2="-6.1" y2="2.05" layer="29"/>
-<rectangle x1="-5.9" y1="0.25" x2="-5.6" y2="2.05" layer="29"/>
-<rectangle x1="-5.4" y1="0.25" x2="-5.1" y2="2.05" layer="29"/>
-<rectangle x1="-4.9" y1="0.25" x2="-4.6" y2="2.05" layer="29"/>
-<rectangle x1="-4.4" y1="0.25" x2="-4.1" y2="2.05" layer="29"/>
-<rectangle x1="-3.9" y1="0.25" x2="-3.6" y2="2.05" layer="29"/>
-<rectangle x1="-3.4" y1="0.25" x2="-3.1" y2="2.05" layer="29"/>
-<rectangle x1="-2.9" y1="0.25" x2="-2.6" y2="2.05" layer="29"/>
-<rectangle x1="-2.4" y1="0.25" x2="-2.1" y2="2.05" layer="29"/>
-<rectangle x1="-1.9" y1="0.25" x2="-1.6" y2="2.05" layer="29"/>
-<rectangle x1="-1.4" y1="0.25" x2="-1.1" y2="2.05" layer="29"/>
-<rectangle x1="-0.9" y1="0.25" x2="-0.6" y2="2.05" layer="29"/>
-<rectangle x1="-0.4" y1="0.25" x2="-0.1" y2="2.05" layer="29"/>
-<rectangle x1="0.1" y1="0.25" x2="0.4" y2="2.05" layer="29"/>
-<rectangle x1="0.6" y1="0.25" x2="0.9" y2="2.05" layer="29"/>
-<rectangle x1="1.1" y1="0.25" x2="1.4" y2="2.05" layer="29"/>
-<rectangle x1="1.6" y1="0.25" x2="1.9" y2="2.05" layer="29"/>
-<rectangle x1="2.1" y1="0.25" x2="2.4" y2="2.05" layer="29"/>
-<rectangle x1="2.6" y1="0.25" x2="2.9" y2="2.05" layer="29"/>
-<rectangle x1="3.1" y1="0.25" x2="3.4" y2="2.05" layer="29"/>
-<rectangle x1="3.6" y1="0.25" x2="3.9" y2="2.05" layer="29"/>
-<rectangle x1="4.1" y1="0.25" x2="4.4" y2="2.05" layer="29"/>
-<rectangle x1="4.6" y1="0.25" x2="4.9" y2="2.05" layer="29"/>
-<rectangle x1="5.1" y1="0.25" x2="5.4" y2="2.05" layer="29"/>
-<rectangle x1="5.6" y1="0.25" x2="5.9" y2="2.05" layer="29"/>
-<rectangle x1="6.1" y1="0.25" x2="6.4" y2="2.05" layer="29"/>
 <pad name="P$1" x="3.81" y="9" drill="0.8" shape="square"/>
 <pad name="P$2" x="2.54" y="6" drill="0.8"/>
 <pad name="P$3" x="1.27" y="9" drill="0.8"/>
@@ -16924,7 +16898,7 @@ CONN_06
 <approved hash="113,1,122.597,87.5623,I2C,,,,,"/>
 <approved hash="113,1,6.94267,74.8623,VCC,,,,,"/>
 <approved hash="113,1,45.0427,60.8923,ANALOG,,,,,"/>
-<approved hash="113,1,127.237,62.4561,RSV,,,,,"/>
+<approved hash="113,1,122.597,59.6223,RSV,,,,,"/>
 </errors>
 </schematic>
 </drawing>
