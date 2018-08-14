@@ -24288,7 +24288,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="25.4" y1="66.04" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$MIDITHRU-RAW" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O"/>
 <wire x1="185.42" y1="76.2" x2="195.58" y2="76.2" width="0.1524" layer="91"/>
@@ -24302,7 +24302,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="RX" class="0">
+<net name="MIDIIN" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="VO"/>
 <wire x1="165.1" y1="60.96" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
@@ -24540,7 +24540,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="170.18" y1="111.76" x2="167.64" y2="114.3" width="0.1524" layer="91" curve="-90"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="MIDIINA" class="0">
 <segment>
 <pinref part="OK1" gate="A" pin="A"/>
 <wire x1="195.58" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
@@ -24687,49 +24687,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="RSV" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="INDR" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="FRONT" gate="G$1" pin="4"/>
 <wire x1="27.94" y1="116.84" x2="22.86" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="A0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A0"/>
 <wire x1="60.96" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="ANALOG" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="A1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A1"/>
 <wire x1="60.96" y1="83.82" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="ANALOG" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="A2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A2"/>
 <wire x1="60.96" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="ANALOG" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="A3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A3"/>
 <wire x1="60.96" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="ANALOG" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="A4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A4"/>
 <wire x1="60.96" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="ANALOG" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="A5" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A5"/>
 <wire x1="60.96" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
