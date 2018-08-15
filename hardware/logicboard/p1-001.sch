@@ -24040,7 +24040,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="218.44" y="20.32" size="1.778" layer="94">Pineapple I 1.0.1</text>
+<text x="218.44" y="20.32" size="1.778" layer="94">Pineapple I 1.2.0</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="175.26" y="76.2"/>

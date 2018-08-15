@@ -177,7 +177,7 @@
 <rectangle x1="0" y1="0" x2="1" y2="72" layer="42"/>
 <rectangle x1="46" y1="0" x2="47" y2="72" layer="41"/>
 <rectangle x1="46" y1="0" x2="47" y2="72" layer="42"/>
-<text x="7.5" y="61" size="1.016" layer="25" rot="R90" align="center">Rev. 1.0.1</text>
+<text x="7.5" y="61" size="1.016" layer="25" rot="R90" align="center">Rev. 1.2.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-Retired">
