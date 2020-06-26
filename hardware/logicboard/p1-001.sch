@@ -13454,7 +13454,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S-COPPER" value="OSHW-LOGOS-COPPER"/>
 <part name="U$1" library="pineapple" deviceset="PINEAPPLE450_SILK" device=""/>
-<part name="J9" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="JACK-DC-005" device="'DC-005'" package3d_urn="urn:adsk.eagle:package:33150/1" value="DC5V"/>
+<part name="J0" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" deviceset="JACK-DC-005" device="'DC-005'" package3d_urn="urn:adsk.eagle:package:33150/1" value="DC5V"/>
 <part name="SUPPLY35" library="supply2" deviceset="GND" device=""/>
 <part name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ARDUINOMICRO" device="" package3d_urn="urn:adsk.eagle:package:6240895/1"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
@@ -13489,7 +13489,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instances>
 <instance part="LOGO1" gate="G$1" x="236.22" y="27.94" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="182.88" y="2.54" smashed="yes"/>
-<instance part="J9" gate="JACK" x="12.7" y="160.02" smashed="yes">
+<instance part="J0" gate="JACK" x="12.7" y="160.02" smashed="yes">
 <attribute name="NAME" x="7.62" y="165.1" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="13.97" y="165.1" size="1.27" layer="96" ratio="10"/>
 </instance>
@@ -13906,11 +13906,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <nets>
 <net name="GND" class="1">
 <segment>
-<pinref part="J9" gate="JACK" pin="CDN"/>
+<pinref part="J0" gate="JACK" pin="CDN"/>
 <wire x1="19.05" y1="160.02" x2="20.32" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
 <wire x1="20.32" y1="160.02" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J9" gate="JACK" pin="-"/>
+<pinref part="J0" gate="JACK" pin="-"/>
 <wire x1="20.32" y1="157.48" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="19.05" y1="157.48" x2="20.32" y2="157.48" width="0.1524" layer="91"/>
 <junction x="20.32" y="157.48"/>
@@ -13997,7 +13997,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="P+10" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JACK" pin="+"/>
+<pinref part="J0" gate="JACK" pin="+"/>
 <wire x1="19.05" y1="162.56" x2="20.32" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="20.32" y1="162.56" x2="20.32" y2="165.1" width="0.1524" layer="91"/>

@@ -172,10 +172,9 @@
 <circle x="90" y="67" radius="2.236065625" width="0.2" layer="41"/>
 <circle x="5" y="5" radius="2.236065625" width="0.2" layer="41"/>
 <circle x="90" y="5" radius="2.236065625" width="0.2" layer="41"/>
-<text x="101" y="68" size="1" layer="25" align="bottom-center">Pineapple 128 1.0.0-X</text>
-<text x="103" y="18" size="1" layer="25" align="center">GND</text>
+<text x="47.5" y="65" size="1" layer="25" align="bottom-center">Pineapple I 1.0.0-X</text>
 <wire x1="95" y1="0" x2="95" y2="72" width="0" layer="20"/>
-<text x="87" y="13" size="1.27" layer="25" align="bottom-center">DC5V1A</text>
+<text x="80" y="1" size="1.27" layer="25" align="bottom-center">DC5V1A</text>
 <text x="2" y="20" size="1" layer="25" rot="R90" align="bottom-center">USB</text>
 <text x="3" y="30.5" size="1" layer="25" align="bottom-center">MC1</text>
 <text x="47" y="20" size="1" layer="25" rot="R90" align="bottom-center">Arduino Micro</text>
@@ -191,7 +190,6 @@
 <rectangle x1="94" y1="0" x2="95" y2="72" layer="42"/>
 <rectangle x1="0" y1="0" x2="95" y2="1" layer="42"/>
 <rectangle x1="0" y1="0" x2="1" y2="72" layer="42"/>
-<text x="103" y="54" size="1" layer="25" align="bottom-center">For Necobit DT-8 R3</text>
 <text x="60.73" y="16.5" size="1" layer="25" align="bottom-center">5</text>
 <text x="58.19" y="16.5" size="1" layer="25" align="bottom-center">4</text>
 <text x="55.65" y="16.5" size="1" layer="25" align="bottom-center">3</text>
@@ -200,8 +198,8 @@
 <text x="63.27" y="16.5" size="1" layer="25" align="bottom-center">6</text>
 <text x="65.81" y="16.5" size="1" layer="25" align="bottom-center">7</text>
 <text x="68.35" y="16.5" size="1" layer="25" align="bottom-center">8</text>
-<text x="70.89" y="16.5" size="1" layer="25" align="bottom-center">C</text>
-<text x="73.43" y="16.5" size="1" layer="25" align="bottom-center">L</text>
+<text x="70.89" y="16.5" size="1" layer="25" align="bottom-center">A</text>
+<text x="73.43" y="16.5" size="1" layer="25" align="bottom-center">B</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3082,8 +3080,8 @@ design rules under a new name.</description>
 <elements>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S_COPPER" value="OSHW-LOGOS-COPPER" x="47.5" y="3" smashed="yes"/>
 <element name="U$1" library="pineapple" package="PINEAPPLE450_SILK" value="PINEAPPLE450_SILK" x="47.5" y="67" smashed="yes"/>
-<element name="J9" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" package="3P-L14.2*W11.0*H9.0MM" package3d_urn="urn:adsk.eagle:package:33150/1" value="DC5V" x="69" y="11" smashed="yes" rot="R90">
-<attribute name="NAME" x="75.5" y="2" size="1" layer="25" ratio="11" rot="R90" align="bottom-center"/>
+<element name="J0" library="Seeed-Connector" library_urn="urn:adsk.eagle:library:478" package="3P-L14.2*W11.0*H9.0MM" package3d_urn="urn:adsk.eagle:package:33150/1" value="DC5V" x="69" y="11" smashed="yes" rot="R90">
+<attribute name="NAME" x="76" y="8" size="1" layer="25" ratio="11" align="bottom-center"/>
 <attribute name="NAME" x="69.635" y="11" size="0.254" layer="33" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="69.635" y="1.475" size="0.889" layer="27" ratio="11" rot="R90"/>
 </element>
@@ -3123,7 +3121,7 @@ design rules under a new name.</description>
 <element name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="9" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="9" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="9" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="9" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="9" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="9" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="9" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3132,7 +3130,7 @@ design rules under a new name.</description>
 <element name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="20" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="20" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="20" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="20" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="20" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="20" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="20" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3141,7 +3139,7 @@ design rules under a new name.</description>
 <element name="SV3" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="31" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="31" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="31" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="31" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="31" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="31" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="31" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3150,7 +3148,7 @@ design rules under a new name.</description>
 <element name="SV4" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="42" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="42" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="42" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="36.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="42" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="42" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="42" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="42" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3159,7 +3157,7 @@ design rules under a new name.</description>
 <element name="SV5" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="53" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="53" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="53" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="47.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="53" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="53" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="53" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3168,7 +3166,7 @@ design rules under a new name.</description>
 <element name="SV6" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="64" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="64" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="64" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="58.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="64" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="64" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="64" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="64" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3177,7 +3175,7 @@ design rules under a new name.</description>
 <element name="SV7" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="75" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="75" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="75" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="69.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="75" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="75" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="75" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="75" y="48" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3186,42 +3184,42 @@ design rules under a new name.</description>
 <element name="SV8" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML10" package3d_urn="urn:adsk.eagle:package:8676/1" value="" x="86" y="48" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="86" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="86" y="48" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="80.92" y="37.84" size="1.778" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="86" y="60" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="86" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="86" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="0" x="86" y="48" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="80.92" y="48" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="DIN5-RA-PTH" package3d_urn="urn:adsk.eagle:package:38294/1" value="DIN5" x="95" y="20" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.666" y="18.73" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="80" y="8" size="1" layer="25" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CONN-09481" x="95" y="20" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="91.063" y="18.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="DIL08" package3d_urn="urn:adsk.eagle:package:21941/1" value="6N137" x="59" y="8" smashed="yes">
 <attribute name="MF" value="" x="59" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="6N137" x="59" y="8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="53.666" y="5.079" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="53" y="8" size="1" layer="25" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="1328376" x="59" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="52M1895" x="59" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="POPULARITY" value="2" x="59" y="8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.444" y="7.365" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="" x="29" y="5" smashed="yes">
-<attribute name="NAME" x="26.9934" y="6.1684" size="0.9906" layer="25" ratio="10"/>
+<attribute name="NAME" x="29" y="2" size="1" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="POPULARITY" value="35" x="29" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="29" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.8664" y="2.6886" size="0.9906" layer="27" ratio="10"/>
 </element>
 <element name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="DIODE-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value="200mA/100V/1V" x="38" y="5" smashed="yes">
-<attribute name="NAME" x="38" y="6.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="38" y="2" size="1" layer="25" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-08378" x="38" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38" y="3.857" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
 <signal name="GND" class="1">
-<contactref element="J9" pad="-2"/>
-<contactref element="J9" pad="-1"/>
+<contactref element="J0" pad="-2"/>
+<contactref element="J0" pad="-1"/>
 <contactref element="U$2" pad="P$12"/>
 <contactref element="U$2" pad="P$21"/>
 <contactref element="RN1" pad="1"/>
@@ -3323,10 +3321,22 @@ design rules under a new name.</description>
 <wire x1="71.8566" y1="42.9006" x2="71.8566" y2="19.1262" width="0.3048" layer="16"/>
 <wire x1="70.6374" y1="15.621" x2="70.5612" y2="15.5448" width="0.3048" layer="16"/>
 <via x="27.7368" y="43.434" extent="1-16" drill="0.3048"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="96" y="-1"/>
+<vertex x="96" y="73"/>
+<vertex x="-1" y="73"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="97" y="-2"/>
+<vertex x="97" y="74"/>
+<vertex x="-2" y="74"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="U$2" pad="P$23"/>
-<contactref element="J9" pad="+"/>
+<contactref element="J0" pad="+"/>
 <contactref element="SV1" pad="1"/>
 <contactref element="SV2" pad="1"/>
 <contactref element="SV3" pad="1"/>
