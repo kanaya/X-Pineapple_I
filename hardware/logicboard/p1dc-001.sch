@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -14050,10 +14050,10 @@ Based on the following sources:
 <class number="0" name="default" width="0.1524" drill="0.1524">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="gnd" width="0.3048" drill="0.1524">
+<class number="1" name="gnd" width="0.6096" drill="0.1524">
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="power" width="0.3048" drill="0.1524">
+<class number="2" name="power" width="0.6096" drill="0.1524">
 <clearance class="2" value="0.1524"/>
 </class>
 <class number="3" name="analog" width="0.1524" drill="0.1524">
