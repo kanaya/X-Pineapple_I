@@ -15069,7 +15069,7 @@ Based on the following sources:
 <pinref part="RN3" gate="H" pin="2"/>
 </segment>
 </net>
-<net name="D1" class="0">
+<net name="Q1" class="0">
 <segment>
 <wire x1="5.08" y1="149.86" x2="2.54" y2="149.86" width="0.1524" layer="91"/>
 <label x="2.54" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -15081,7 +15081,7 @@ Based on the following sources:
 <label x="215.9" y="86.36" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D2" class="0">
+<net name="Q2" class="0">
 <segment>
 <wire x1="5.08" y1="111.76" x2="2.54" y2="111.76" width="0.1524" layer="91"/>
 <label x="2.54" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -15093,7 +15093,7 @@ Based on the following sources:
 <label x="215.9" y="83.82" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D3" class="0">
+<net name="Q3" class="0">
 <segment>
 <wire x1="5.08" y1="73.66" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="2.54" y="73.66" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -15105,7 +15105,7 @@ Based on the following sources:
 <label x="215.9" y="81.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D4" class="0">
+<net name="Q4" class="0">
 <segment>
 <wire x1="5.08" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
 <label x="2.54" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -15123,13 +15123,8 @@ Based on the following sources:
 <label x="86.36" y="149.86" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <pinref part="RN1" gate="E" pin="1"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="A" pin="QE"/>
-<wire x1="213.36" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
-<label x="215.9" y="76.2" size="0.8128" layer="95" xref="yes"/>
-</segment>
 </net>
-<net name="D6" class="0">
+<net name="Q6" class="0">
 <segment>
 <wire x1="88.9" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
 <label x="86.36" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -15141,7 +15136,7 @@ Based on the following sources:
 <label x="215.9" y="73.66" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="Q7" class="0">
 <segment>
 <wire x1="88.9" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 <label x="86.36" y="73.66" size="0.8128" layer="95" rot="R180" xref="yes"/>
@@ -15151,18 +15146,6 @@ Based on the following sources:
 <pinref part="IC2" gate="A" pin="QG"/>
 <wire x1="213.36" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="215.9" y="71.12" size="0.8128" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="D8" class="0">
-<segment>
-<wire x1="88.9" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
-<label x="86.36" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="RN1" gate="H" pin="1"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="A" pin="QH"/>
-<wire x1="213.36" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
-<label x="215.9" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -15728,6 +15711,25 @@ Based on the following sources:
 <pinref part="SV2" gate="-10" pin="S"/>
 <wire x1="238.76" y1="73.66" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
 <label x="243.84" y="73.66" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q5" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="QE"/>
+<wire x1="213.36" y1="76.2" x2="215.9" y2="76.2" width="0.1524" layer="91"/>
+<label x="215.9" y="76.2" size="0.8128" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q8" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="QH"/>
+<wire x1="213.36" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="215.9" y="68.58" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="88.9" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="86.36" y="35.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<pinref part="RN1" gate="H" pin="1"/>
 </segment>
 </net>
 </nets>
